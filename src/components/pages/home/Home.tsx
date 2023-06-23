@@ -6,9 +6,6 @@ export default function Home () {
 
     return (
         <React.Fragment>
-            <div className={styles.box}>
-
-            </div>
         </React.Fragment>
     )
 }

@@ -1,0 +1,14 @@
+.variantThematic {
+    border-radius: 32px;
+    padding: 16px 24px;
+    background-image: linear-gradient(to right, var(--primary-orange) 0%, var(--primary-pink) 100%);
+    box-shadow: 0 5px 15px #DD2476A5;
+    color: white;
+    font-family: Quicksand, sans-serif;
+    font-weight: 700;
+    transition: background-image 0.2s ease-in-out;
+}
+
+.variantThematic:hover {
+    background-image: linear-gradient(to right, var(--primary-pink) 0%, var(--primary-orange) 100%);
+}

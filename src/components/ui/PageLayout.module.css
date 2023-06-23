@@ -2,5 +2,8 @@
     width: 100%;
     min-height: 100vh;
     height: 100%;
-    background: var(--primary-purple-mid);
+    background: var(--primary-purple-dark);
+    display: flex;
+    position: relative;
+    z-index: 0;
 }

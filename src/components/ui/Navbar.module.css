@@ -1,9 +1,20 @@
+@media screen and (max-width: 1650px) {
+    .navbarWrapper {
+        padding: 0 5%;
+    }
+}
+
+@media screen and (min-width: 1651px) {
+    .navbarWrapper {
+        padding: 0 15%;
+    }
+}
+
 .navbarWrapper {
     width: 100%;
     height: 75px;
     background: transparent;
     margin-top: 16px;
-    padding: 0 220px;
 }
 
 .navbarContainer {
@@ -29,6 +40,15 @@
     color: white;
     text-decoration: none;
     cursor: pointer;
+    padding: 4px;
+}
+
+.linkButtons :global(a) {
+    transition: text-shadow .3s;
+}
+
+.linkButtons :global(a):hover {
+    text-shadow: 0 0 12px white;
 }
 
 .flagsContainer :global(span).disabled {

@@ -1,15 +1,3 @@
-@media screen and (max-width: 1650px) {
-    .navbarWrapper {
-        padding: 0 5%;
-    }
-}
-
-@media screen and (min-width: 1651px) {
-    .navbarWrapper {
-        padding: 0 15%;
-    }
-}
-
 .navbarWrapper {
     width: 100%;
     height: 75px;

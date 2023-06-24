@@ -1,9 +1,23 @@
+@media screen and (max-width: 1650px) {
+    .pageWrapper {
+        padding: 0 5%;
+    }
+}
+
+@media screen and (min-width: 1651px) {
+    .pageWrapper {
+        padding: 0 15%;
+    }
+}
+
+
 .pageWrapper {
-    width: 100%;
     min-height: 100vh;
     height: 100%;
     background: var(--primary-purple-dark);
     display: flex;
+    flex-direction: column;
+    gap: 32px;
     position: relative;
     z-index: 0;
 }

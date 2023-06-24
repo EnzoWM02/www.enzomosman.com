@@ -23,7 +23,7 @@ export default function Navbar() {
                 <Button className={`${styles.cvButton}`} onClick={() => alert('clicked')}>{t('navbar.downloadCv')}</Button>
                 <div className={`${styles.linkButtons}`}>
                     <Link to={'/'}>{t('navbar.home')}</Link>
-                    <Link to={'/'}>{t('navbar.skills')}</Link>
+                    <Link to={'/skills'}>{t('navbar.skills')}</Link>
                     <Link to={'/'}>{t('navbar.projects')}</Link>
                     <Link to={'/'}>{t('navbar.formation')}</Link>
                     <Link to={'/'}>{t('navbar.about')}</Link>

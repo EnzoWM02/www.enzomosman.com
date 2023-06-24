@@ -1,7 +1,7 @@
 .variantThematic {
     border-radius: 32px;
     padding: 16px 24px;
-    background: linear-gradient(120deg, yellow, var(--primary-orange), var(--primary-pink));
+    background: linear-gradient(120deg, var(--secundary-orange), var(--primary-orange), var(--primary-pink));
     background-size: 200% 100%;
     background-position: 100% 0;
     box-shadow: 0 5px 15px #DD2476A5;

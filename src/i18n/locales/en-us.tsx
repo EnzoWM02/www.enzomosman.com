@@ -6,9 +6,13 @@ export default {
             projects: 'Projects',
             formation: 'Formation',
             about: 'About me',
-            portuguese: 'Portuguese',
+            portuguese: 'Português',
             english: 'English',
             downloadCv: 'Download Curriculum'
+        },
+        home: {
+          title1: 'Hello, I\'m Enzo',
+          title2: 'I\'m a Fullstack developer who solves problems with technology'
         }
     }
 }

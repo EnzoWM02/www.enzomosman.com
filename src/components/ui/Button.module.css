@@ -4,14 +4,13 @@
     background: linear-gradient(120deg, var(--secundary-orange), var(--primary-orange), var(--primary-pink));
     background-size: 200% 100%;
     background-position: 100% 0;
-    box-shadow: 0 5px 15px #DD2476A5;
+    box-shadow: 0 5px 15px var(--shadow-pink);
     transition: box-shadow 1s, background-position .5s;
     color: white;
-    font-family: Quicksand, sans-serif;
     font-weight: 700;
 }
 
 .variantThematic:hover {
     background-position: 0 0;
-    box-shadow: 0 5px 25px #DD2476A5;
+    box-shadow: 0 5px 25px var(--shadow-pink);
 }

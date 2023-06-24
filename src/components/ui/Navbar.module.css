@@ -22,7 +22,6 @@
 }
 
 .linkButtons :global(a), .flagsContainer :global(span) {
-    font-family: Quicksand, sans-serif;
     font-weight: 500;
     font-size: 18px;
     color: white;

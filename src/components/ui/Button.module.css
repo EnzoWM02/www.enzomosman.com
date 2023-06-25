@@ -1,16 +1,21 @@
 .variantThematic {
-    border-radius: 32px;
-    padding: 16px 24px;
-    background: linear-gradient(120deg, var(--secundary-orange), var(--primary-orange), var(--primary-pink));
-    background-size: 200% 100%;
-    background-position: 100% 0;
-    box-shadow: 0 5px 15px var(--shadow-pink);
-    transition: box-shadow 1s, background-position .5s;
-    color: white;
-    font-weight: 700;
+  border-radius: 32px;
+  padding: 16px 24px;
+  background: linear-gradient(
+    120deg,
+    var(--secundary-orange),
+    var(--primary-orange),
+    var(--primary-pink)
+  );
+  background-size: 200% 100%;
+  background-position: 100% 0;
+  box-shadow: 0 5px 15px var(--shadow-pink);
+  transition: box-shadow 1s, background-position 0.5s;
+  color: white;
+  font-weight: 700;
 }
 
 .variantThematic:hover {
-    background-position: 0 0;
-    box-shadow: 0 5px 25px var(--shadow-pink);
+  background-position: 0 0;
+  box-shadow: 0 5px 25px var(--shadow-pink);
 }

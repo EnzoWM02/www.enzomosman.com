@@ -1,25 +1,24 @@
 @media screen and (max-width: 1650px) {
-    .pageWrapper {
-        padding: 0 5%;
-    }
+  .pageWrapper {
+    padding: 0 5%;
+  }
 }
 
 @media screen and (min-width: 1651px) {
-    .pageWrapper {
-        padding: 0 15%;
-    }
+  .pageWrapper {
+    padding: 0 15%;
+  }
 }
 
-
 .pageWrapper {
-    min-height: 100vh;
-    height: 100%;
-    background: var(--primary-purple-dark);
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
-    position: relative;
-    z-index: 0;
-    font-family: Quicksand, sans-serif;
-    overflow: hidden;
+  min-height: 100vh;
+  height: 100%;
+  background: var(--primary-purple-dark);
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  position: relative;
+  z-index: 0;
+  font-family: Quicksand, sans-serif;
+  overflow: hidden;
 }

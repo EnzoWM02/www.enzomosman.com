@@ -1,10 +1,10 @@
 :root {
-    --primary-purple-light: #635985;
-    --primary-purple: #443C68;
-    --primary-purple-mid: #393053;
-    --primary-purple-dark: #18122B;
-    --primary-orange: #FF512F;
-    --primary-pink: #DD2476;
-    --shadow-pink: rgba(229, 93, 154, 0.3);
-    --secundary-orange: #ff9900;
+  --primary-purple-light: #635985;
+  --primary-purple: #443c68;
+  --primary-purple-mid: #393053;
+  --primary-purple-dark: #18122b;
+  --primary-orange: #ff512f;
+  --primary-pink: #dd2476;
+  --shadow-pink: rgba(229, 93, 154, 0.3);
+  --secundary-orange: #ff9900;
 }

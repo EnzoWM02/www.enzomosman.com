@@ -1,117 +1,132 @@
 .outletContainer {
-    height: fit-content;
-    position: relative;
-    margin-left: 5vw;
+  height: fit-content;
+  position: relative;
+  margin-left: 5vw;
 }
 
 .titleContainer {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-    width: 650px;
-    position: relative;
-    z-index: 2;
-    margin-top: 22vh;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 650px;
+  position: relative;
+  z-index: 2;
+  margin-top: 22vh;
 }
 
 .firstTitle {
-    font-size: 52px;
-    font-weight: 500;
-    background: linear-gradient(45deg, var(--primary-orange), var(--primary-pink));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-background-clip: border;
-    -moz-text-fill-color: transparent;
+  font-size: 52px;
+  font-weight: 500;
+  background: linear-gradient(
+    45deg,
+    var(--primary-orange),
+    var(--primary-pink)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: border;
+  -moz-text-fill-color: transparent;
 }
 
 .secondTitle {
-    font-size: 32px;
-    font-weight: 400;
-    color: white;
+  font-size: 32px;
+  font-weight: 400;
+  color: white;
 }
 
 .desc {
-    margin-top: 16px;
-    font-size: 18px;
-    font-weight: 400;
-    color: #a9a9a9;
+  margin-top: 16px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #a9a9a9;
 }
 
 @media screen and (max-width: 1650px) {
-    .imageContainer {
-        left: 45vw;
-    }
+  .imageContainer {
+    left: 45vw;
+  }
 }
 
 @media screen and (min-width: 1651px) {
-    .imageContainer {
-        left: 35vw;
-    }
+  .imageContainer {
+    left: 35vw;
+  }
 }
 
-
 .imageContainer {
-    position: absolute;
-    top: 12vh;
-
+  position: absolute;
+  top: 12vh;
 }
 
 .outerCircle {
-    position: relative;
-    border-radius: 50%;
-    width: 450px;
-    height: 450px;
-    background: var(--primary-purple-dark);
-    border: double 1px transparent;
-    background-image: linear-gradient(var(--primary-purple-dark), var(--primary-purple-dark)), radial-gradient(circle at 100%, var(--primary-pink), var(--primary-orange));
-    background-origin: border-box;
-    background-clip: content-box, border-box;
+  position: relative;
+  border-radius: 50%;
+  width: 450px;
+  height: 450px;
+  background: var(--primary-purple-dark);
+  border: double 1px transparent;
+  background-image: linear-gradient(
+      var(--primary-purple-dark),
+      var(--primary-purple-dark)
+    ),
+    radial-gradient(circle at 100%, var(--primary-pink), var(--primary-orange));
+  background-origin: border-box;
+  background-clip: content-box, border-box;
 }
 
-.outerFullCircle, .innerFullCircle {
-    width: 125px;
-    height: 125px;
-    border-radius: 50%;
-    background-image: linear-gradient(25deg, var(--primary-orange), var(--primary-pink));
-    position: absolute;
-    box-shadow: 0 5px 15px var(--shadow-pink);
+.outerFullCircle,
+.innerFullCircle {
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  background-image: linear-gradient(
+    25deg,
+    var(--primary-orange),
+    var(--primary-pink)
+  );
+  position: absolute;
+  box-shadow: 0 5px 15px var(--shadow-pink);
 }
 
 .innerFullCircle {
-    top: 140px;
-    left: 400px
+  top: 140px;
+  left: 400px;
 }
 
 .outerFullCircle {
-    top: 310px;
+  top: 310px;
 }
 
 .imgCircle {
-    position: relative;
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-    top: -440px;
-    left: 280px;
-    border-radius: 50%;
-    padding: 1px;
-    background-image: linear-gradient(25deg, var(--primary-orange), var(--primary-pink));
-    box-shadow: 0 5px 15px var(--shadow-pink);
-    background-clip: padding-box;
+  position: relative;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  top: -440px;
+  left: 280px;
+  border-radius: 50%;
+  padding: 1px;
+  background-image: linear-gradient(
+    25deg,
+    var(--primary-orange),
+    var(--primary-pink)
+  );
+  box-shadow: 0 5px 15px var(--shadow-pink);
+  background-clip: padding-box;
 }
 
 .iconContainer {
-    margin-top: 32px;
-    display: flex;
-    gap: 32px;
+  margin-top: 32px;
+  display: flex;
+  gap: 32px;
 }
 
 .iconContainer :global(i) {
-    font-size: 36px;
-    color: white;
-    transition: text-shadow 0.25s;
+  font-size: 36px;
+  color: white;
+  transition: text-shadow 0.25s;
 }
 
 .iconContainer :global(i):hover {
-    text-shadow: 0 0 12px rgba(255, 255, 255, 0.3);
+  text-shadow: 0 0 12px rgba(255, 255, 255, 0.3);
 }

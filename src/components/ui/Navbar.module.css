@@ -1,70 +1,74 @@
 .navbarWrapper {
-    width: 100%;
-    height: 75px;
-    background: transparent;
-    margin-top: 16px;
+  width: 100%;
+  height: 75px;
+  background: transparent;
+  margin-top: 16px;
 }
 
 .navbarContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
 }
 
 .linkButtons {
-    display: flex;
-    gap: 76px;
-    align-items: center;
-    justify-content: center;
-
+  display: flex;
+  gap: 76px;
+  align-items: center;
+  justify-content: center;
 }
 
-.linkButtons :global(a), .flagsContainer :global(span) {
-    font-weight: 500;
-    font-size: 18px;
-    color: white;
-    text-decoration: none;
-    cursor: pointer;
-    padding: 4px;
+.linkButtons :global(a),
+.flagsContainer :global(span) {
+  font-weight: 500;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 4px;
 }
 
 .linkButtons :global(a) {
-    transition: text-shadow .3s;
+  transition: text-shadow 0.3s;
 }
 
 .linkButtons :global(a):hover {
-    text-shadow: 0 0 12px white;
+  text-shadow: 0 0 12px white;
 }
 
 .flagsContainer :global(span).disabled {
-    color: #333333;
-    font-size: 14px;
-    transition: color ease 0.2s;
+  color: #333333;
+  font-size: 14px;
+  transition: color ease 0.2s;
 }
 
 .flagsContainer :global(span).disabled:hover {
-    color: white;
+  color: white;
 }
 
 .flagsContainer {
-    width: 200px;
-    height: 50px;
-    margin-left: auto;
-    background: var(--primary-purple-dark);
-    border-radius: 24px;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 16px;
-    border: double 1px transparent;
-    background-image: linear-gradient(var(--primary-purple-dark), var(--primary-purple-dark)), radial-gradient(circle at 100%, var(--primary-pink), var(--primary-orange));
-    background-origin: border-box;
-    background-clip: content-box, border-box;
+  width: 200px;
+  height: 50px;
+  margin-left: auto;
+  background: var(--primary-purple-dark);
+  border-radius: 24px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  border: double 1px transparent;
+  background-image: linear-gradient(
+      var(--primary-purple-dark),
+      var(--primary-purple-dark)
+    ),
+    radial-gradient(circle at 100%, var(--primary-pink), var(--primary-orange));
+  background-origin: border-box;
+  background-clip: content-box, border-box;
 }
 
 .cvButton {
-    margin-right: auto;
+  margin-right: auto;
 }

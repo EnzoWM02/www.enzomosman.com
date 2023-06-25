@@ -11,8 +11,9 @@ export default {
             downloadCv: 'Download Curriculum'
         },
         home: {
-          title1: 'Hello, I\'m Enzo',
-          title2: 'I\'m a Fullstack developer who solves problems with technology'
+            title1: 'Hello, I\'m Enzo',
+            title2: 'I\'m a Fullstack developer who solves problems with technology',
+            desc: 'Over a year of professional experience working with several technologies to bring quality and results. I\'m a passionate person who learns fast and is eager to grow',
         }
     }
 }

@@ -6,7 +6,6 @@ export enum Languages {
     English = 'en-US'
 }
 
-
 export default {
     'pt-BR': ptBrTranslations,
     'en-US': enUsTranslations

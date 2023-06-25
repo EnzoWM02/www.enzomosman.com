@@ -12,7 +12,8 @@ export default {
         },
         home: {
             title1: 'Olá, eu sou o Enzo',
-            title2: 'Eu sou um desenvolvedor Fullstack que soluciona problemas usando tecnologia'
+            title2: 'Eu sou um desenvolvedor Fullstack que soluciona problemas usando tecnologia',
+            desc: 'Mais de 1 ano de experiência profissional trabalhando com diversas tecnologias para entregar qualidade e resultados. Eu sou uma pessoa animada, que aprende rápido e tem vontade de crescer.',
         }
     }
 }

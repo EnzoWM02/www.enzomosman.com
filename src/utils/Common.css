@@ -1,0 +1,21 @@
+.title {
+  width: fit-content;
+  font-size: 52px;
+  font-weight: 500;
+  background: linear-gradient(
+    90deg,
+    var(--primary-orange),
+    var(--primary-pink)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: border;
+  -moz-text-fill-color: transparent;
+}
+
+.desc {
+  margin-top: 16px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #a9a9a9;
+}

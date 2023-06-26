@@ -1,6 +1,6 @@
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import './utils/vars.css';
+import './utils/Vars.css';
 import { BrowserRouter, Route, Routes, useLocation } from 'react-router-dom';
 import PageLayout from './components/ui/PageLayout.tsx';
 import HomePage from './components/pages/home/HomePage.tsx';

@@ -1,12 +1,14 @@
 import styles from './HomePage.module.css';
+import '@/utils/Common.css';
 
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 
-import photo from '../../../assets/temp.png';
-import { Links } from '../../../utils/Links.tsx';
+import photo from '@/assets/temp.png';
+import { Links } from '@/utils/Links.tsx';
 
 import { motion } from 'framer-motion';
+import { ExitAnimation } from '@/utils/Animations.tsx';
 
 export default function HomePage() {
   const { t } = useTranslation();
@@ -27,14 +29,13 @@ export default function HomePage() {
         className={`${styles.outletContainer}`}
         initial="hidden"
         animate="visible"
-        exit={{ y: -50, opacity: 0 }}
-        transition={{ duration: 0.2 }}
         variants={{ visible: { transition: { staggerChildren: 0.2 } } }}
+        {...ExitAnimation}
       >
         <div className={`${styles.titleContainer}`}>
           <motion.span
             variants={itemVariants}
-            className={`${styles.firstTitle}`}
+            className={`title`}
           >
             {t('home.title1')}
           </motion.span>

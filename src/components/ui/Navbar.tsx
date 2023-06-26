@@ -2,7 +2,7 @@ import styles from './Navbar.module.css';
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { Languages } from '../../i18n/locales/locales.tsx';
+import { Languages } from '@/i18n/locales/locales.tsx';
 import Button from './Button.tsx';
 
 export default function Navbar() {

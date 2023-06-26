@@ -1,0 +1,39 @@
+.headerContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 38px;
+}
+
+.desc {
+    width: fit-content;
+}
+
+.skillsSectionContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-left: 120px;
+    width: 100%;
+    padding: 32px 0;
+}
+
+.containerSeparator {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.separator {
+    margin-top: 32px;
+    width: 90%;
+    height: 2px;
+    background-color: rgba(51, 51, 51, 0.35);
+    border-radius: 16px;
+}
+
+.containerSeparator:last-child {
+    display: none;
+}

@@ -14,8 +14,6 @@ import SkillsSections from '@/components/pages/skills/SkillsSections.tsx';
 export default function SkillsPage() {
   const { t } = useTranslation();
 
-  const SkillsSectionsMotion = motion(SkillsSections);
-
   const itemVariants = {
     hidden: { opacity: 0, y: 10 },
     visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
@@ -40,10 +38,9 @@ export default function SkillsPage() {
         <div className={`${styles.skillsSectionContainer}`}>
           {SkillsList.map((item: ISkillsList, idx: number) => {
             return (
-              <React.Fragment>
-                <motion.div variants={itemVariants} key={`section_${idx}`}>
-                  <SkillsSectionsMotion
-                    variants={itemVariants}
+              <React.Fragment key={`section_${idx}`}>
+                <motion.div variants={itemVariants} >
+                  <SkillsSections
                     section={item.section}
                     list={item.list}
                   />

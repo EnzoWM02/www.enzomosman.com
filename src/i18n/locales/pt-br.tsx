@@ -54,7 +54,7 @@ export default {
           communication: 'Comunicação',
           teamwork: 'Trabalho em equipe',
           proactive: 'Proatividade',
-          creative: 'Creative',
+          creative: 'Criativo',
         }
       }
     },

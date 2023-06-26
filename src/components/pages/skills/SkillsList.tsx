@@ -3,7 +3,7 @@ export interface ISkillsList {
   list: string[];
 }
 
-export default [
+const SkillsList: Array<ISkillsList> = [
   {
     section: 'frontend',
     list: ['html', 'css', 'javascript', 'reactjs', 'typescript', 'nextjs'],
@@ -21,3 +21,5 @@ export default [
     list: ['communication', 'teamwork', 'proactive', 'creative'],
   },
 ];
+
+export default SkillsList;

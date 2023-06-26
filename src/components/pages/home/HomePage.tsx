@@ -33,10 +33,7 @@ export default function HomePage() {
         {...ExitAnimation}
       >
         <div className={`${styles.titleContainer}`}>
-          <motion.span
-            variants={itemVariants}
-            className={`title`}
-          >
+          <motion.span variants={itemVariants} className={`title`}>
             {t('home.title1')}
           </motion.span>
           <motion.span

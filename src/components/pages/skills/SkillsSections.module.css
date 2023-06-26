@@ -63,7 +63,7 @@
 }
 
 .cardWrapper {
-  box-shadow: 6px 6px 18px rgba(8, 5, 28, 0.5);
+  box-shadow: 6px 6px 18px var(--shadow-purple);
   display: flex;
   flex-direction: column;
   justify-content: center;

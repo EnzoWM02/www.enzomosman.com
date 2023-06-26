@@ -6,5 +6,7 @@
   --primary-orange: #ff512f;
   --primary-pink: #dd2476;
   --shadow-pink: rgba(229, 93, 154, 0.3);
+  --shadow-purple: rgba(8, 5, 28, 0.5);
+  --soft-shadow-purple: rgba(8, 5, 28, 0.35);
   --secundary-orange: #ff9900;
 }

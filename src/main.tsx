@@ -7,6 +7,7 @@ import HomePage from './components/pages/home/HomePage.tsx';
 import './i18n/i18n.tsx';
 import SkillsPage from './components/pages/skills/SkillsPage.tsx';
 import { AnimatePresence } from 'framer-motion';
+import { NavbarPagesRoutes } from '@/utils/Routes.tsx';
 
 const AppRoot = () => {
   const location = useLocation();
@@ -15,7 +16,9 @@ const AppRoot = () => {
       <Routes location={location} key={location.pathname}>
         <Route path={'/'} element={<PageLayout />}>
           <Route index element={<HomePage />} />
-          <Route path={'/skills'} element={<SkillsPage />} />
+          {NavbarPagesRoutes.map((route, idx) => {
+            return <Route path={route.path} element={route.component} />;
+          })}
         </Route>
       </Routes>
     </AnimatePresence>

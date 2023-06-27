@@ -5,7 +5,6 @@ import { BrowserRouter, Route, Routes, useLocation } from 'react-router-dom';
 import PageLayout from './components/ui/PageLayout.tsx';
 import HomePage from './components/pages/home/HomePage.tsx';
 import './i18n/i18n.tsx';
-import SkillsPage from './components/pages/skills/SkillsPage.tsx';
 import { AnimatePresence } from 'framer-motion';
 import { NavbarPagesRoutes } from '@/utils/Routes.tsx';
 
@@ -17,7 +16,13 @@ const AppRoot = () => {
         <Route path={'/'} element={<PageLayout />}>
           <Route index element={<HomePage />} />
           {NavbarPagesRoutes.map((route, idx) => {
-            return <Route path={route.path} element={route.component} />;
+            return (
+              <Route
+                path={route.path}
+                element={route.component}
+                key={`route_${idx}`}
+              />
+            );
           })}
         </Route>
       </Routes>
@@ -33,6 +38,7 @@ const RouterRoot = () => {
   );
 };
 
-ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
-  <RouterRoot />
+const root = ReactDOM.createRoot(
+  document.getElementById('root') as HTMLElement
 );
+root.render(<RouterRoot />);

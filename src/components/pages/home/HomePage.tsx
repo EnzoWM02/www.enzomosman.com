@@ -9,9 +9,11 @@ import { Links } from '@/utils/Links.tsx';
 
 import { motion } from 'framer-motion';
 import { ExitAnimation } from '@/utils/Animations.tsx';
+import { useLayoutContext } from '@/hooks/useLayoutContext.tsx';
 
 export default function HomePage() {
   const { t } = useTranslation();
+  const layoutContext = useLayoutContext();
 
   const itemVariants = {
     hidden: { opacity: 0, y: 10 },

@@ -9,6 +9,7 @@ export default {
       portuguese: 'Português',
       english: 'English',
       downloadCv: 'Download Curriculum',
+      menu: 'Menu',
     },
     home: {
       title1: "Hello, I'm Enzo",
@@ -17,7 +18,7 @@ export default {
     },
     skills: {
       title: 'Skills',
-      desc: "I'm studying programming since I was 12, here are some of my most relevant skills",
+      desc: "I've been studying programming since I was 12, here are some of my most relevant skills",
       frontend: {
         title: 'Front End',
         list: {

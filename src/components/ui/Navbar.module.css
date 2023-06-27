@@ -48,24 +48,29 @@
   color: white;
 }
 
+.switchFlagsContainer,
 .flagsContainer {
   height: 50px;
   margin-left: auto;
-  background: var(--primary-purple-dark);
   border-radius: 24px;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 16px;
-  border: double 1px transparent;
-  background-image: linear-gradient(
-      var(--primary-purple-dark),
-      var(--primary-purple-dark)
-    ),
-    radial-gradient(circle at 100%, var(--primary-pink), var(--primary-orange));
+}
+
+.flagsContainer {
+  background: var(--primary-purple-dark);
   background-origin: border-box;
   background-clip: content-box, border-box;
+  background-image: linear-gradient(
+          var(--primary-purple-dark),
+          var(--primary-purple-dark)
+  ),
+  radial-gradient(circle at 100%, var(--primary-pink), var(--primary-orange));
+  width: 200px;
+  border: double 1px transparent;
 }
 
 .cvButton {
@@ -97,19 +102,28 @@
   filter: grayscale(1);
 }
 
+.mobileLowResNavbar,
 .mobileNavbarContainer {
   position: fixed;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: calc(100% - 64px);
   height: 91px;
-  padding: 0 32px;
-  top: 0;
   left: 0;
-  background-color: #0f0b1c;
+  background-color: var(--primary-purple-dark-menu);
   z-index: 3;
   box-shadow: 0 6px 6px var(--soft-shadow-purple);
+}
+
+.mobileLowResNavbar {
+  width: 100%;
+  bottom: 0;
+}
+
+.mobileNavbarContainer {
+  width: calc(100% - 64px);
+  padding: 0 32px;
+  top: 0;
 }
 
 .mobileNavbarIconsContainer {
@@ -128,13 +142,13 @@
   gap: 12px;
 }
 
-.iconTitleContainer :global(i) {
+.mobileNavbarIconsContainer :global(i) {
   font-size: 24px;
   color: white;
   text-align: center;
 }
 
-.iconTitleContainer :global(span) {
+.mobileNavbarIconsContainer :global(span) {
   font-size: 12px;
   color: white;
 }

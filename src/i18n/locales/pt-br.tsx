@@ -9,6 +9,7 @@ export default {
       portuguese: 'Português',
       english: 'English',
       downloadCv: 'Baixar Currículo',
+      menu: 'Menu',
     },
     home: {
       title1: 'Olá, eu sou o Enzo',

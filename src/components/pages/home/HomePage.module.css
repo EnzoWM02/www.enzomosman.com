@@ -41,6 +41,10 @@
   color: #a9a9a9;
 }
 
+.socialButtonsContainer {
+  width: fit-content;
+}
+
 @media screen and (max-width: 1650px) {
   .imageContainer {
     left: 45vw;
@@ -97,36 +101,10 @@
   top: 310px;
 }
 
-.imgCircle {
-  position: relative;
-  height: 200px;
+.shinyImage {
   width: 200px;
-  border-radius: 50%;
+  height: 200px;
   top: -440px;
   left: 280px;
-  border-radius: 50%;
-  padding: 1px;
-  background-image: linear-gradient(
-    25deg,
-    var(--primary-orange),
-    var(--primary-pink)
-  );
-  box-shadow: 0 5px 15px var(--shadow-pink);
-  background-clip: padding-box;
-}
-
-.iconContainer {
-  margin-top: 32px;
-  display: flex;
-  gap: 32px;
-}
-
-.iconContainer :global(i) {
-  font-size: 36px;
-  color: white;
-  transition: text-shadow 0.25s;
-}
-
-.iconContainer :global(i):hover {
-  text-shadow: 0 0 12px rgba(255, 255, 255, 0.3);
+  position: relative;
 }

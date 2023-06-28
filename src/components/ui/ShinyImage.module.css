@@ -1,0 +1,17 @@
+.imageWrapper {
+  border-radius: 50%;
+  padding: 1px;
+  background-image: linear-gradient(
+    25deg,
+    var(--primary-orange),
+    var(--primary-pink)
+  );
+  box-shadow: 0 5px 15px var(--shadow-pink);
+  background-clip: padding-box;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}

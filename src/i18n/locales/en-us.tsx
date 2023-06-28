@@ -10,6 +10,9 @@ export default {
       english: 'English',
       downloadCv: 'Download Curriculum',
       menu: 'Menu',
+      sidebar: {
+        downloadCv: 'Download Curriculum'
+      }
     },
     home: {
       title1: "Hello, I'm Enzo",

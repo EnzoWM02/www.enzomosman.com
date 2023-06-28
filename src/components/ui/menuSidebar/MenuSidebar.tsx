@@ -3,6 +3,7 @@ import React, { useEffect } from 'react';
 import ReactDOM from 'react-dom';
 import { useLayoutContext } from '@/hooks/useLayoutContext.tsx';
 import { AnimatePresence, motion } from 'framer-motion';
+import { useNavigate } from 'react-router-dom';
 
 interface IMenuSidebar {
   children:
@@ -13,6 +14,7 @@ interface IMenuSidebar {
   onClose(): any;
 
   header?: React.ReactElement;
+  footer?: React.ReactElement;
 }
 
 export default function MenuSidebar({
@@ -20,6 +22,7 @@ export default function MenuSidebar({
   open,
   onClose,
   header,
+  footer,
 }: IMenuSidebar) {
   const layoutContext = useLayoutContext();
 
@@ -45,7 +48,7 @@ export default function MenuSidebar({
       },
     }),
     closed: {
-      clipPath: 'circle(0px at 100% 100%)',
+      clipPath: `circle(0px at 100% ${layoutContext.mobileBreakpoint ? 100 : 0}%)`,
       transition: {
         type: 'spring',
         stiffness: 350,
@@ -68,12 +71,11 @@ export default function MenuSidebar({
               layoutContext.mobileBreakpoint ? styles.lg : styles.sm
             }`}
           >
-            {!!header && (
-              <div className={`${styles.headerContainer}`}>
-                {header}
-              </div>
+            {!!header && header}
+            <div className={`${styles.childrenContainer}`}>{children}</div>
+            {!!footer && (
+              <div className={`${styles.footerContainer}`}>{footer}</div>
             )}
-            {children}
           </motion.div>
         </div>
       )}
@@ -85,12 +87,29 @@ export default function MenuSidebar({
 export interface ISidebarOption {
   icon: string;
   title: string;
+  onClick?: any;
+  to?: string;
 }
 
-export function SidebarOption({ icon, title }: ISidebarOption) {
+export function SidebarOption({ icon, title, onClick, to }: ISidebarOption) {
+  const navigate = useNavigate();
+
+  const handleOnClick = () => {
+    if (onClick) {
+      onClick();
+    }
+    if (to) {
+      navigate(to);
+    }
+  };
+
   return (
-    <div className={`${styles.optionWrapper}`}>
-      <i className={`${icon}`} />
-    </div>
+    <React.Fragment>
+      <div className={`${styles.optionWrapper}`} onClick={handleOnClick}>
+        <i className={`${icon}`} />
+        <span>{title}</span>
+      </div>
+      <div className={`${styles.separator}`} />
+    </React.Fragment>
   );
 }

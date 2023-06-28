@@ -1,0 +1,16 @@
+.iconContainer {
+    margin-top: 32px;
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+}
+
+.iconContainer :global(i) {
+    font-size: 36px;
+    color: white;
+    transition: text-shadow 0.25s;
+}
+
+.iconContainer :global(i):hover {
+    text-shadow: 0 0 12px rgba(255, 255, 255, 0.3);
+}

@@ -2,7 +2,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import './utils/Vars.css';
 import { BrowserRouter, Route, Routes, useLocation } from 'react-router-dom';
-import PageLayout from './components/ui/PageLayout.tsx';
+import PageLayout from './components/ui/navigation/PageLayout.tsx';
 import HomePage from './components/pages/home/HomePage.tsx';
 import './i18n/i18n.tsx';
 import { AnimatePresence } from 'framer-motion';

@@ -156,3 +156,11 @@
 .removeDisplay {
   display: none;
 }
+
+.mobileLanguageSwitch {
+  background-image: linear-gradient(
+          var(--primary-purple-dark-menu),
+          var(--primary-purple-dark-menu)
+  ),
+  radial-gradient(circle at 100%, var(--primary-pink), var(--primary-orange));
+}

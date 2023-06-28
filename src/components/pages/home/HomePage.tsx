@@ -9,11 +9,11 @@ import { Links } from '@/utils/Links.tsx';
 
 import { motion } from 'framer-motion';
 import { ExitAnimation } from '@/utils/Animations.tsx';
-import { useLayoutContext } from '@/hooks/useLayoutContext.tsx';
+import ShinyImage from '@/components/ui/ShinyImage.tsx';
+import SocialButtons from '@/components/ui/SocialButtons.tsx';
 
 export default function HomePage() {
   const { t } = useTranslation();
-  const layoutContext = useLayoutContext();
 
   const itemVariants = {
     hidden: { opacity: 0, y: 10 },
@@ -47,19 +47,8 @@ export default function HomePage() {
           <motion.span variants={itemVariants} className={`${styles.desc}`}>
             {t('home.desc')}
           </motion.span>
-          <motion.div
-            variants={itemVariants}
-            className={`${styles.iconContainer}`}
-          >
-            <a href={Links.Github} target={'_blank'} rel={'noreferrer'}>
-              <i className="fa-brands fa-github" />
-            </a>
-            <a href={Links.Linkedin} target={'_blank'} rel={'noreferrer'}>
-              <i className="fa-brands fa-linkedin" />
-            </a>
-            <a href={Links.Instagram} target={'_blank'} rel={'noreferrer'}>
-              <i className="fa-brands fa-instagram" />
-            </a>
+          <motion.div className={`${styles.socialButtonsContainer}`} variants={itemVariants}>
+            <SocialButtons />
           </motion.div>
         </div>
         <motion.div
@@ -69,11 +58,7 @@ export default function HomePage() {
           <motion.div className={`${styles.outerCircle}`} />
           <motion.div className={`${styles.outerFullCircle}`} />
           <motion.div className={`${styles.innerFullCircle}`} />
-          <motion.img
-            className={`${styles.imgCircle}`}
-            src={photo}
-            alt={'enzo photo'}
-          />
+          <ShinyImage className={`${styles.shinyImage}`} imageSrc={photo} imageAlt={'enzo photo'} />
         </motion.div>
       </motion.div>
     </React.Fragment>

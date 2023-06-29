@@ -37,7 +37,7 @@
 
 .skillsContainer {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
   justify-content: center;
   align-items: center;
   gap: 32px;
@@ -45,7 +45,7 @@
 }
 
 .skillsContainer.mobile {
-  grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
 }
 
 .cardWrapper {

@@ -12,7 +12,6 @@
 
 .pageWrapper {
   min-height: 100vh;
-  height: 100%;
   background: var(--primary-purple-dark);
   display: flex;
   flex-direction: column;
@@ -21,4 +20,12 @@
   z-index: 0;
   font-family: Quicksand, sans-serif;
   overflow: hidden;
+}
+
+.pageWrapper.mobile {
+  min-height: calc(100vh - 90px);;
+}
+
+.mobile {
+  margin-bottom: 90px;
 }

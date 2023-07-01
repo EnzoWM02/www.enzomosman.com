@@ -14,6 +14,11 @@
   margin-top: 22vh;
 }
 
+.lowRes.titleContainer {
+  width: 100%;
+  margin-top: 6vh;
+}
+
 .firstTitle {
   font-size: 52px;
   font-weight: 500;
@@ -34,6 +39,10 @@
   color: white;
 }
 
+.mobile .secondTitle {
+  font-size: 20px;
+}
+
 .desc {
   margin-top: 16px;
   font-size: 18px;
@@ -41,8 +50,16 @@
   color: #a9a9a9;
 }
 
+.mobile .desc {
+  font-size: 15px;
+}
+
 .socialButtonsContainer {
   width: fit-content;
+}
+
+.mobile .socialButtonsContainer {
+  width: 100%;
 }
 
 @media screen and (max-width: 1650px) {
@@ -60,6 +77,17 @@
 .imageContainer {
   position: absolute;
   top: 12vh;
+}
+
+.lowRes.imageContainer {
+  top: 35vh;
+  left: 23vw;
+}
+
+@media screen and (max-width: 760px) {
+  .lowRes.imageContainer {
+    left: 5%;
+  }
 }
 
 .outerCircle {
@@ -99,6 +127,19 @@
 
 .outerFullCircle {
   top: 310px;
+}
+
+.mobileImageContainer {
+  width: 100%;
+  display: flex;
+  margin-top: 16px;
+  align-items: center;
+  justify-content: center;
+}
+
+.mobileImage {
+  width: 200px;
+  height: 200px;
 }
 
 .shinyImage {

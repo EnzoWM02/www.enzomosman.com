@@ -1,85 +1,85 @@
 .sectionWrapper {
-  display: flex;
-  align-items: center;
-  gap: 72px;
-  margin-top: 16px;
-  width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 72px;
+    margin-top: 16px;
+    width: 100%;
 }
 
-.sectionWrapper.mobile {
-  gap: 20px;
+:global(.mobile) .sectionWrapper {
+    gap: 20px;
 }
 
 .sectionTitle {
-  position: relative;
-  color: white;
-  writing-mode: vertical-rl;
-  text-orientation: mixed;
-  transform: rotate(180deg);
-  font-size: 24px;
-  font-weight: 500;
+    position: relative;
+    color: white;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    transform: rotate(180deg);
+    font-size: 24px;
+    font-weight: 500;
 }
 
 .sectionTitle::after {
-  display: block;
-  content: '';
-  width: 2px;
-  height: 100%;
-  border-radius: 16px;
-  background: linear-gradient(
-    45deg,
-    var(--primary-orange),
-    var(--primary-pink)
-  );
-  position: absolute;
-  left: -6px;
+    display: block;
+    content: '';
+    width: 2px;
+    height: 100%;
+    border-radius: 16px;
+    background: linear-gradient(
+            45deg,
+            var(--primary-orange),
+            var(--primary-pink)
+    );
+    position: absolute;
+    left: -6px;
 }
 
 .skillsContainer {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
-  justify-content: center;
-  align-items: center;
-  gap: 32px;
-  width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    width: 100%;
 }
 
-.skillsContainer.mobile {
-  grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+:global(.mobile) .skillsContainer {
+    grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
 }
 
 .cardWrapper {
-  box-shadow: 6px 6px 18px var(--shadow-purple);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 160px;
-  height: 180px;
-  gap: 12px;
+    box-shadow: 6px 6px 18px var(--shadow-purple);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 180px;
+    gap: 12px;
 }
 
-.cardWrapper.mobile {
-  width: 110px;
-  height: 135px;
+:global(.mobile) .cardWrapper {
+    width: 110px;
+    height: 135px;
 }
 
 .cardWrapper :global(img) {
-  max-width: 118px;
-  transition: filter .2s, transform .2s;
+    max-width: 118px;
+    transition: filter .2s, transform .2s;
 }
 
-.cardWrapper :global(img).mobile {
-  max-width: 80px;
+:global(.mobile) .cardWrapper :global(img) {
+    max-width: 80px;
 }
 
 .cardWrapper :global(img):hover {
-  transform: scale(1.15);
-  filter: drop-shadow(0 0 15px rgba(0, 0, 0, 0.5));
+    transform: scale(1.15);
+    filter: drop-shadow(0 0 15px rgba(0, 0, 0, 0.5));
 }
 
 .skillCardTitle {
-  color: white;
-  font-size: 18px;
-  font-weight: 500;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
 }

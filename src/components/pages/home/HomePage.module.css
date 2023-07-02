@@ -14,9 +14,9 @@
   margin-top: 22vh;
 }
 
-.lowRes.titleContainer {
+:global(.lowRes) .titleContainer {
   width: 100%;
-  margin-top: 6vh;
+  margin-top: 3vh;
 }
 
 .firstTitle {
@@ -39,7 +39,7 @@
   color: white;
 }
 
-.mobile .secondTitle {
+:global(.mobile) .secondTitle {
   font-size: 20px;
 }
 
@@ -50,7 +50,7 @@
   color: #a9a9a9;
 }
 
-.mobile .desc {
+:global(.mobile) .desc {
   font-size: 15px;
 }
 
@@ -58,7 +58,7 @@
   width: fit-content;
 }
 
-.mobile .socialButtonsContainer {
+:global(.mobile) .socialButtonsContainer {
   width: 100%;
 }
 
@@ -79,13 +79,13 @@
   top: 12vh;
 }
 
-.lowRes.imageContainer {
+:global(.lowRes) .imageContainer {
   top: 35vh;
   left: 23vw;
 }
 
 @media screen and (max-width: 760px) {
-  .lowRes.imageContainer {
+  :global(.lowRes) .imageContainer {
     left: 5%;
   }
 }

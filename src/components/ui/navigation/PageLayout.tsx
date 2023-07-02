@@ -5,12 +5,12 @@ import { useLayoutContext } from '@/hooks/useLayoutContext.tsx';
 
 export default function PageLayout() {
 
-  const {mobileBreakpoint} = useLayoutContext();
+  const {mobileBreakpoint, isLowRes} = useLayoutContext();
 
   return (
-    <div className={`${styles.pageWrapper} ${mobileBreakpoint && styles.mobile}`}>
-      <Navbar />
-      <Outlet />
-    </div>
+      <div className={`${styles.pageWrapper} ${isLowRes && 'lowRes'} ${mobileBreakpoint && 'mobile'}`}>
+          <Navbar/>
+          <Outlet/>
+      </div>
   );
 }

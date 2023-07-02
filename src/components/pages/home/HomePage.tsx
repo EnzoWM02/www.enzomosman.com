@@ -13,8 +13,8 @@ import SocialButtons from '@/components/ui/SocialButtons.tsx';
 import { useLayoutContext } from '@/hooks/useLayoutContext.tsx';
 
 export default function HomePage() {
-  const { t } = useTranslation();
-  const { isLowRes, mobileBreakpoint } = useLayoutContext();
+  const {t} = useTranslation();
+  const {mobileBreakpoint} = useLayoutContext();
 
   const itemVariants = {
     hidden: { opacity: 0, y: 10 },
@@ -35,13 +35,13 @@ export default function HomePage() {
         variants={{ visible: { transition: { staggerChildren: 0.2 } } }}
         {...ExitAnimation}
       >
-        <div className={`${styles.titleContainer} ${isLowRes && styles.lowRes} ${mobileBreakpoint && styles.mobile}`}>
+        <div className={`${styles.titleContainer}`}>
           <motion.span variants={itemVariants} className={`title`}>
             {t('home.title1')}
           </motion.span>
           <motion.span
-            variants={itemVariants}
-            className={`${styles.secondTitle}`}
+              variants={itemVariants}
+              className={`${styles.secondTitle}`}
           >
             {t('home.title2')}
           </motion.span>
@@ -66,8 +66,8 @@ export default function HomePage() {
         </div>
         {!mobileBreakpoint && (
           <motion.div
-            variants={imageVariant}
-            className={`${styles.imageContainer} ${isLowRes && styles.lowRes}`}
+              variants={imageVariant}
+              className={`${styles.imageContainer}`}
           >
             <motion.div className={`${styles.outerCircle}`} />
             <motion.div className={`${styles.outerFullCircle}`} />

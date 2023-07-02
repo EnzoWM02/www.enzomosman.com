@@ -22,10 +22,7 @@
   overflow: hidden;
 }
 
-.pageWrapper.mobile {
-  min-height: calc(100vh - 90px);;
-}
-
-.mobile {
-  margin-bottom: 90px;
+.pageWrapper:global(.mobile) {
+  min-height: calc(100vh - 122px);
+  padding-bottom: 122px;
 }

@@ -39,13 +39,13 @@ export default function SkillsPage() {
           {SkillsList.map((item: ISkillsList, idx: number) => {
             return (
               <React.Fragment key={`section_${idx}`}>
-                <motion.div style={{width: '100%'}} variants={itemVariants} >
-                  <SkillsSections
-                    section={item.section}
-                    list={item.list}
-                  />
+                <motion.div style={{ width: '100%' }} variants={itemVariants}>
+                  <SkillsSections section={item.section} list={item.list} />
                 </motion.div>
-                <motion.div variants={itemVariants} className={`${styles.containerSeparator}`}>
+                <motion.div
+                  variants={itemVariants}
+                  className={`${styles.containerSeparator}`}
+                >
                   <div className={`${styles.separator}`} />
                 </motion.div>
               </React.Fragment>

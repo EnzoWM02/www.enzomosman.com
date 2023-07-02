@@ -13,8 +13,8 @@ import SocialButtons from '@/components/ui/SocialButtons.tsx';
 import { useLayoutContext } from '@/hooks/useLayoutContext.tsx';
 
 export default function HomePage() {
-  const {t} = useTranslation();
-  const {mobileBreakpoint} = useLayoutContext();
+  const { t } = useTranslation();
+  const { mobileBreakpoint } = useLayoutContext();
 
   const itemVariants = {
     hidden: { opacity: 0, y: 10 },
@@ -40,14 +40,21 @@ export default function HomePage() {
             {t('home.title1')}
           </motion.span>
           <motion.span
-              variants={itemVariants}
-              className={`${styles.secondTitle}`}
+            variants={itemVariants}
+            className={`${styles.secondTitle}`}
           >
             {t('home.title2')}
           </motion.span>
           {mobileBreakpoint && (
-            <motion.div variants={itemVariants} className={`${styles.mobileImageContainer}`}>
-              <ShinyImage className={`${styles.mobileImage}`} imageSrc={photo} imageAlt={'enzo photo'} />
+            <motion.div
+              variants={itemVariants}
+              className={`${styles.mobileImageContainer}`}
+            >
+              <ShinyImage
+                className={`${styles.mobileImage}`}
+                imageSrc={photo}
+                imageAlt={'enzo photo'}
+              />
             </motion.div>
           )}
           {!mobileBreakpoint && (
@@ -55,7 +62,10 @@ export default function HomePage() {
               {t('home.desc')}
             </motion.span>
           )}
-          <motion.div className={`${styles.socialButtonsContainer}`} variants={itemVariants}>
+          <motion.div
+            className={`${styles.socialButtonsContainer}`}
+            variants={itemVariants}
+          >
             <SocialButtons />
           </motion.div>
           {mobileBreakpoint && (
@@ -66,13 +76,17 @@ export default function HomePage() {
         </div>
         {!mobileBreakpoint && (
           <motion.div
-              variants={imageVariant}
-              className={`${styles.imageContainer}`}
+            variants={imageVariant}
+            className={`${styles.imageContainer}`}
           >
             <motion.div className={`${styles.outerCircle}`} />
             <motion.div className={`${styles.outerFullCircle}`} />
             <motion.div className={`${styles.innerFullCircle}`} />
-            <ShinyImage className={`${styles.shinyImage}`} imageSrc={photo} imageAlt={'enzo photo'} />
+            <ShinyImage
+              className={`${styles.shinyImage}`}
+              imageSrc={photo}
+              imageAlt={'enzo photo'}
+            />
           </motion.div>
         )}
       </motion.div>

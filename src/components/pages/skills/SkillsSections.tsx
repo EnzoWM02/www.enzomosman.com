@@ -10,18 +10,18 @@ export default function SkillsSections({ section, list }: ISkillsList) {
 
   return (
     <div className={`${styles.sectionWrapper}`}>
-        <div>
+      <div>
         <span className={`${styles.sectionTitle}`}>
           {t(`skills.${section}.title`)}
         </span>
-        </div>
-        <div className={`${styles.skillsContainer}`}>
-            {list.map((value: string, idx: number) => {
-                return (
-                    <SkillCard section={section} value={value} key={`skill_${idx}`}/>
-                );
-            })}
-        </div>
+      </div>
+      <div className={`${styles.skillsContainer}`}>
+        {list.map((value: string, idx: number) => {
+          return (
+            <SkillCard section={section} value={value} key={`skill_${idx}`} />
+          );
+        })}
+      </div>
     </div>
   );
 }
@@ -45,11 +45,11 @@ function SkillCard({ section, value }: { section: string; value: string }) {
   }, []);
 
   return (
-      <div className={`${styles.cardWrapper}`}>
-          <img src={image} alt={`${value}_logo`}/>
-          <span className={`${styles.skillCardTitle}`}>
+    <div className={`${styles.cardWrapper}`}>
+      <img src={image} alt={`${value}_logo`} />
+      <span className={`${styles.skillCardTitle}`}>
         {t(`skills.${section}.list.${value}`)}
       </span>
-      </div>
+    </div>
   );
 }

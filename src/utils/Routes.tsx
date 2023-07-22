@@ -1,6 +1,7 @@
 import React from 'react';
 import HomePage from '../components/pages/home/HomePage.tsx';
 import SkillsPage from '../components/pages/skills/SkillsPage.tsx';
+import ProjectsPage from '@/components/pages/projects/ProjectsPage.tsx';
 
 export interface IRoute {
   path: string;
@@ -23,10 +24,10 @@ export const NavbarPagesRoutes: Array<IRoute> = [
     component: <SkillsPage />,
   },
   {
-    path: '/',
+    path: '/projects',
     title: 'navbar.projects',
     icon: 'fa-solid fa-list-check',
-    component: <HomePage />,
+    component: <ProjectsPage />,
   },
   {
     path: '/',

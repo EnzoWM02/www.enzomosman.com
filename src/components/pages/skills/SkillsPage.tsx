@@ -27,7 +27,6 @@ export default function SkillsPage() {
       variants={{ visible: { transition: { staggerChildren: 0.2 } } }}
       {...ExitAnimation}
     >
-      <React.Fragment>
         <motion.div
           className={`${styles.headerContainer}`}
           variants={itemVariants}
@@ -52,7 +51,6 @@ export default function SkillsPage() {
             );
           })}
         </div>
-      </React.Fragment>
     </motion.div>
   );
 }

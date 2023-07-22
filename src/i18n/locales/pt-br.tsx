@@ -62,5 +62,8 @@ export default {
         }
       }
     },
+    projects: {
+      title: 'Projetos',
+    }
   },
 };

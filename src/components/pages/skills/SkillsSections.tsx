@@ -1,11 +1,16 @@
 import styles from './SkillsSections.module.css';
 
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 
 import { ISkill } from 'src/components/pages/skills/SkillsList';
 import { useTranslation } from 'react-i18next';
+import SkillIcon from 'src/components/ui/SkillIcon.tsx';
 
-export default function SkillsSections({ sectionedSkills }: { sectionedSkills: ISkill[] }) {
+export default function SkillsSections({
+  sectionedSkills,
+}: {
+  sectionedSkills: ISkill[];
+}) {
   const { t } = useTranslation();
 
   return (
@@ -17,7 +22,7 @@ export default function SkillsSections({ sectionedSkills }: { sectionedSkills: I
       </div>
       <div className={`${styles.skillsContainer}`}>
         {sectionedSkills.map((value: ISkill, idx: number) => {
-          return <SkillCard skill={value} key={`skill_${idx}`} />;
+          return <SkillCard skill={value}  key={`skill_${idx}`} />;
         })}
       </div>
     </div>
@@ -27,27 +32,10 @@ export default function SkillsSections({ sectionedSkills }: { sectionedSkills: I
 function SkillCard({ skill }: { skill: ISkill }) {
   const { t } = useTranslation();
 
-  const [image, setImage] = useState<string>('');
-
-  useEffect(() => {
-    (async function () {
-      try {
-        const { default: imageUrl } = await import(
-          `../../../assets/skillsLogo/${skill.name}.png`
-        );
-        setImage(imageUrl);
-      } catch (e) {
-        console.error('Error when fetching image for ', skill.name, e);
-      }
-    })();
-  }, []);
-
   return (
     <div className={`${styles.cardWrapper}`}>
-      <img src={image} alt={`${skill.name}_logo`} />
-      <span className={`${styles.skillCardTitle}`}>
-        {t(skill.title)}
-      </span>
+      <SkillIcon imageName={skill.name} title={false} />
+      <span className={`${styles.skillCardTitle}`}>{t(skill.title)}</span>
     </div>
   );
 }

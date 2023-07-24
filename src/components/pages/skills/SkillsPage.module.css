@@ -42,3 +42,15 @@
 .containerSeparator:last-child {
   display: none;
 }
+
+.projectCardsContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 52px;
+  row-gap: 52px;
+  margin-top: 50px;
+}
+
+:global(.lowRes) .projectCardsContainer {
+  grid-template-columns: 1fr;
+}

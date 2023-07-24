@@ -11,7 +11,7 @@ export interface ISkill {
   section: Section;
 }
 
-interface Skills {
+export interface ISkills {
   Html: ISkill;
   Css: ISkill;
   Javascript: ISkill;
@@ -32,7 +32,7 @@ interface Skills {
   Creative: ISkill;
 }
 
-export const skills: Skills = {
+export const Skills: ISkills = {
   Html: {
     name: 'html',
     title: 'skills.list.html',
@@ -124,9 +124,3 @@ export const skills: Skills = {
     section: Section.SoftSkills,
   },
 };
-
-
-export interface ISkillsList {
-  section: Section;
-  list: ISkill[];
-}

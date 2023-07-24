@@ -52,12 +52,13 @@ export default {
     },
     projects: {
       title: 'Projetos',
-      enzoPortfolio: {
-        title: 'Portfolio',
-        description: 'wdwad',
-        image: '',
-        link: '',
-      },
+      list: {
+        portfolio: {
+          title: 'Portfolio',
+          description: 'O meu primeiro projeto publicado. Ele representa uma visão geral de tudo que eu posso oferecer como desenvolvedor, com meus projetos, habilidades e experiências a mostra.',
+        },
+      }
     },
+    learnMore: 'Saiba mais'
   },
 };

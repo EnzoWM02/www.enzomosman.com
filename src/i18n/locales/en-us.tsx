@@ -51,6 +51,13 @@ export default {
     },
     projects: {
       title: 'Projects',
-    }
+      list: {
+        portfolio: {
+          title: 'Portfolio',
+          description: 'My first published project. It represents an overview of all I can offer as a developer. It contains my projects, skills and experiences.',
+        },
+      }
+    },
+    learnMore: 'Learn more'
   },
 };

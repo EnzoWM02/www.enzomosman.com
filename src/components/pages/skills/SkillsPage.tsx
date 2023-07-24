@@ -9,7 +9,7 @@ import { useTranslation } from 'react-i18next';
 import {
   Section,
   ISkill,
-  skills,
+  Skills,
 } from 'src/components/pages/skills/SkillsList.tsx';
 import SkillsSections from 'src/components/pages/skills/SkillsSections.tsx';
 
@@ -18,7 +18,7 @@ export default function SkillsPage() {
 
   const sectionSkill = Object.values(Section).map((section) => {
     const skillArr: ISkill[] = [];
-    for (const skill of Object.values(skills)) {
+    for (const skill of Object.values(Skills)) {
       if (skill.section === section) skillArr.push(skill);
     }
     return skillArr;

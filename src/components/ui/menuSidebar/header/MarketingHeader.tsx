@@ -2,9 +2,9 @@ import styles from './MarketingHeader.module.css'
 
 import React from 'react';
 
-import photo from '@/assets/temp.png';
-import ShinyImage from '@/components/ui/ShinyImage.tsx';
-import SocialButtons from '@/components/ui/SocialButtons.tsx';
+import photo from 'src/assets/temp.png';
+import ShinyImage from 'src/components/ui/ShinyImage.tsx';
+import SocialButtons from 'src/components/ui/SocialButtons.tsx';
 
 export default function MarketingHeader () {
   return (

@@ -1,16 +1,16 @@
 import styles from './HomePage.module.css';
-import '@/utils/Common.css';
+import 'src/utils/Common.css';
 
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 
-import photo from '@/assets/temp.png';
+import photo from 'src/assets/temp.png';
 
 import { motion } from 'framer-motion';
-import { ExitAnimation } from '@/utils/Animations.tsx';
-import ShinyImage from '@/components/ui/ShinyImage.tsx';
-import SocialButtons from '@/components/ui/SocialButtons.tsx';
-import { useLayoutContext } from '@/hooks/useLayoutContext.tsx';
+import { ExitAnimation } from 'src/utils/Animations.tsx';
+import ShinyImage from 'src/components/ui/ShinyImage.tsx';
+import SocialButtons from 'src/components/ui/SocialButtons.tsx';
+import { useLayoutContext } from 'src/hooks/useLayoutContext.tsx';
 
 export default function HomePage() {
   const { t } = useTranslation();

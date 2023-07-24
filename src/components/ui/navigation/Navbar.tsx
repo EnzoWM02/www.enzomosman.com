@@ -2,15 +2,15 @@ import styles from './Navbar.module.css';
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { Languages } from '@/i18n/locales/locales.tsx';
-import Button from '../Button.tsx';
+import { Languages } from 'src/i18n/locales/locales.tsx';
+import Button from 'src/components/ui/Button.tsx';
 
-import { IRoute, NavbarPagesRoutes } from '@/utils/Routes.tsx';
+import { IRoute, NavbarPagesRoutes } from 'src/utils/Routes.tsx';
 import MenuSidebar, {
   SidebarOption,
-} from '@/components/ui/menuSidebar/MenuSidebar.tsx';
-import { useLayoutContext } from '@/hooks/useLayoutContext.tsx';
-import MarketingHeader from '@/components/ui/menuSidebar/header/MarketingHeader.tsx';
+} from 'src/components/ui/menuSidebar/MenuSidebar.tsx';
+import { useLayoutContext } from 'src/hooks/useLayoutContext.tsx';
+import MarketingHeader from 'src/components/ui/menuSidebar/header/MarketingHeader.tsx';
 
 export default function Navbar() {
   const layoutContext = useLayoutContext();

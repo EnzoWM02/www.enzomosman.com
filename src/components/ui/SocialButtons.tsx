@@ -1,5 +1,5 @@
 import styles from './SocialButtons.module.css'
-import { Links } from '@/utils/Links.tsx';
+import { Links } from 'src/utils/Links.tsx';
 import React from 'react';
 
 export default function SocialButtons () {

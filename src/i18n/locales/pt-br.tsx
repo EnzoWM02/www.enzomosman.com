@@ -11,8 +11,8 @@ export default {
       downloadCv: 'Baixar Currículo',
       menu: 'Menu',
       sidebar: {
-        downloadCv: 'Baixar Currículo'
-      }
+        downloadCv: 'Baixar Currículo',
+      },
     },
     home: {
       title1: 'Olá, eu sou o Enzo',
@@ -23,47 +23,41 @@ export default {
     skills: {
       title: 'Habilidades',
       desc: 'Eu estudo programação desde os meus 12 anos, aqui estão algumas das minhas principais habilidades',
-      frontend: {
-        title: 'Front End',
-        list: {
-          html: 'HTML',
-          css: 'CSS',
-          javascript: 'Javascript',
-          reactjs: 'ReactJS',
-          typescript: 'Typescript',
-          nextjs: 'NextJS',
-        }
+      sections: {
+        frontend: 'Frontend',
+        backend: 'Backend',
+        others: 'Outros',
+        softSkills: 'Soft Skills'
       },
-      backend: {
-        title: 'Back End',
-        list: {
-          java: 'Java',
-          postgresql: 'PostgreSQL',
-          spring: 'Spring Framework',
-          hibernate: 'Hibernate',
-          nodejs: 'NodeJS',
-        }
+      list: {
+        html: 'HTML',
+        css: 'CSS',
+        javascript: 'Javascript',
+        reactjs: 'ReactJS',
+        typescript: 'Typescript',
+        nextjs: 'NextJS',
+        java: 'Java',
+        postgresql: 'PostgreSQL',
+        spring: 'Spring Framework',
+        hibernate: 'Hibernate',
+        nodejs: 'NodeJS',
+        git: 'Git',
+        docker: 'Docker',
+        linux: 'Linux',
+        communication: 'Comunicação',
+        teamwork: 'Trabalho em equipe',
+        proactive: 'Proatividade',
+        creative: 'Criativo',
       },
-      others: {
-        title: 'Outros',
-        list: {
-          git: 'Git',
-          docker: 'Docker',
-          linux: 'Linux',
-        }
-      },
-      softSkills: {
-        title: 'Soft Skills',
-        list: {
-          communication: 'Comunicação',
-          teamwork: 'Trabalho em equipe',
-          proactive: 'Proatividade',
-          creative: 'Criativo',
-        }
-      }
     },
     projects: {
       title: 'Projetos',
-    }
+      enzoPortfolio: {
+        title: 'Portfolio',
+        description: 'wdwad',
+        image: '',
+        link: '',
+      },
+    },
   },
 };

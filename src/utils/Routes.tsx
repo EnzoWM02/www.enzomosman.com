@@ -1,7 +1,7 @@
 import React from 'react';
-import HomePage from '../components/pages/home/HomePage.tsx';
-import SkillsPage from '../components/pages/skills/SkillsPage.tsx';
-import ProjectsPage from '@/components/pages/projects/ProjectsPage.tsx';
+import HomePage from 'src/components/pages/home/HomePage.tsx';
+import SkillsPage from 'src/components/pages/skills/SkillsPage.tsx';
+import ProjectsPage from 'src/components/pages/projects/ProjectsPage.tsx';
 
 export interface IRoute {
   path: string;

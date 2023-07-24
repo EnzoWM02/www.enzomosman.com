@@ -22,43 +22,31 @@ export default {
     skills: {
       title: 'Skills',
       desc: "I've been studying programming since I was 12, here are some of my most relevant skills",
-      frontend: {
-        title: 'Front End',
-        list: {
-          html: 'HTML',
-          css: 'CSS',
-          javaScript: 'Javascript',
-          react: 'ReactJS',
-          typeScript: 'Typescript',
-          next: 'NextJS',
-        },
+      sections: {
+        frontend: 'Frontend',
+        backend: 'Backend',
+        others: 'Others',
+        softSkills: 'Soft Skills'
       },
-      backend: {
-        title: 'Back End',
-        list: {
-          java: 'Java',
-          postgresql: 'PostgreSQL',
-          spring: 'Spring Framework',
-          hibernate: 'Hibernate',
-          nodejs: 'NodeJS',
-        },
-      },
-      others: {
-        title: 'Others',
-        list: {
-          git: 'Git',
-          docker: 'Docker',
-          linux: 'Linux',
-        },
-      },
-      softSkills: {
-        title: 'Soft Skills',
-        list: {
-          communication: 'Communication',
-          teamwork: 'Teamwork',
-          proactive: 'Proactive',
-          creative: 'Creative',
-        },
+      list: {
+        html: 'HTML',
+        css: 'CSS',
+        javascript: 'Javascript',
+        reactjs: 'ReactJS',
+        typescript: 'Typescript',
+        nextjs: 'NextJS',
+        java: 'Java',
+        postgresql: 'PostgreSQL',
+        spring: 'Spring Framework',
+        hibernate: 'Hibernate',
+        nodejs: 'NodeJS',
+        git: 'Git',
+        docker: 'Docker',
+        linux: 'Linux',
+        communication: 'Comunicação',
+        teamwork: 'Trabalho em equipe',
+        proactive: 'Proatividade',
+        creative: 'Criativo',
       },
     },
     projects: {

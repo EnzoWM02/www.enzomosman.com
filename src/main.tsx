@@ -1,12 +1,12 @@
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import './utils/Vars.css';
+import 'src/index.css';
+import 'src/utils/Vars.css';
 import { BrowserRouter, Route, Routes, useLocation } from 'react-router-dom';
-import PageLayout from './components/ui/navigation/PageLayout.tsx';
-import HomePage from './components/pages/home/HomePage.tsx';
-import './i18n/i18n.tsx';
+import PageLayout from 'src/components/ui/navigation/PageLayout.tsx';
+import HomePage from 'src/components/pages/home/HomePage.tsx';
+import 'src/i18n/i18n.tsx';
 import { AnimatePresence } from 'framer-motion';
-import { NavbarPagesRoutes } from '@/utils/Routes.tsx';
+import { NavbarPagesRoutes } from 'src/utils/Routes.tsx';
 
 const AppRoot = () => {
   const location = useLocation();

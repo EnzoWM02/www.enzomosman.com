@@ -1,7 +1,7 @@
 import styles from './MenuSidebar.module.css';
 import React, { useEffect } from 'react';
 import ReactDOM from 'react-dom';
-import { useLayoutContext } from '@/hooks/useLayoutContext.tsx';
+import { useLayoutContext } from 'src/hooks/useLayoutContext.tsx';
 import { AnimatePresence, motion } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
 

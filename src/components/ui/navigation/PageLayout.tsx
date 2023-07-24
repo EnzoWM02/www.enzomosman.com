@@ -1,7 +1,7 @@
 import styles from './PageLayout.module.css';
 import { Outlet } from 'react-router-dom';
 import Navbar from './Navbar.tsx';
-import { useLayoutContext } from '@/hooks/useLayoutContext.tsx';
+import { useLayoutContext } from 'src/hooks/useLayoutContext.tsx';
 
 export default function PageLayout() {
 

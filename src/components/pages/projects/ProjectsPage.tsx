@@ -1,7 +1,7 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next';
-import styles from '@/components/pages/skills/SkillsPage.module.css';
-import { ExitAnimation } from '@/utils/Animations.tsx';
+import styles from 'src/components/pages/skills/SkillsPage.module.css';
+import { ExitAnimation } from 'src/utils/Animations.tsx';
 import { motion } from 'framer-motion';
 
 export default function ProjectsPage () {
@@ -14,7 +14,6 @@ export default function ProjectsPage () {
 
   return (
     <motion.div
-      className={`${styles.outletContainer}`}
       initial="hidden"
       animate="visible"
       variants={{ visible: { transition: { staggerChildren: 0.2 } } }}

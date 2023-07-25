@@ -56,7 +56,8 @@ export default {
           title: 'Portfolio',
           description: 'My first published project. It represents an overview of all I can offer as a developer. It contains my projects, skills and experiences.',
         },
-      }
+      },
+      comingSoon: 'Coming soon...',
     },
     learnMore: 'Learn more'
   },

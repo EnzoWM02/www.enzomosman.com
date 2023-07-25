@@ -3,7 +3,6 @@ import React, { useEffect, useState } from 'react';
 import { IProject } from 'src/components/pages/projects/ProjectsList.tsx';
 import SkillIcon from 'src/components/ui/SkillIcon.tsx';
 import { useTranslation } from 'react-i18next';
-import Button from 'src/components/ui/Button.tsx';
 
 export default function ProjectCard({ project }: { project: IProject }) {
 
@@ -37,7 +36,7 @@ export default function ProjectCard({ project }: { project: IProject }) {
       <div className={`${styles.textContainer}`}>
         <span className={`${styles.title}`}>{t(project.title)}</span>
         <span className={`${styles.desc}`}>{t(project.description)}</span>
-        <Button className={`${styles.ctaButton}`} onClick={() => window.open(project.link)} >{project.ctaButton}</Button>
+        {project.ctaButton}
       </div>
     </div>
   );

@@ -1,3 +1,7 @@
+.projectsPageWrapper {
+  padding-bottom: 52px;
+}
+
 .headerContainer {
   width: 100%;
   display: flex;
@@ -53,4 +57,30 @@
 
 :global(.lowRes) .projectCardsContainer {
   grid-template-columns: 1fr;
+}
+
+.lowFidelityImage {
+  animation: skeleton-loading 3s linear infinite alternate;
+  opacity: 0.5;
+}
+
+@keyframes skeleton-loading {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.7;
+  }
+}
+
+.comingSoonProjectsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 64px;
+}
+
+.comingSoonProjectsContainer :global(span) {
+  color: #b3a6d0;
+  font-size: 32px;
 }

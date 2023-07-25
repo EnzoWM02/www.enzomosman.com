@@ -57,7 +57,8 @@ export default {
           title: 'Portfolio',
           description: 'O meu primeiro projeto publicado. Ele representa uma visão geral de tudo que eu posso oferecer como desenvolvedor, com meus projetos, habilidades e experiências a mostra.',
         },
-      }
+      },
+      comingSoon: 'Mais projetos em breve...',
     },
     learnMore: 'Saiba mais'
   },

@@ -7,6 +7,7 @@ import { ExitAnimation } from 'src/utils/Animations.tsx';
 import { motion } from 'framer-motion';
 import { Projects } from 'src/components/pages/projects/ProjectsList.tsx';
 import ProjectCard from 'src/components/pages/projects/ProjectCard.tsx';
+import LowFidelityImage from 'src/assets/projectImages/lowFidelity.png'
 
 export default function ProjectsPage() {
   const { t } = useTranslation();
@@ -21,6 +22,7 @@ export default function ProjectsPage() {
       initial="hidden"
       animate="visible"
       variants={{ visible: { transition: { staggerChildren: 0.2 } } }}
+      className={`${styles.projectsPageWrapper}`}
       {...ExitAnimation}
     >
       <motion.div
@@ -37,6 +39,11 @@ export default function ProjectsPage() {
             </motion.div>
           );
         })}
+        <motion.div className={`${styles.comingSoonProjectsContainer}`} variants={itemVariants}>
+          <img className={`${styles.lowFidelityImage}`} src={LowFidelityImage} alt={'Low fidelity image for coming soon projects'} />
+          <span>{t('projects.comingSoon')}</span>
+        </motion.div>
+
       </motion.div>
     </motion.div>
   );

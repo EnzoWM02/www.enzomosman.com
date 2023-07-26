@@ -4,7 +4,7 @@ import 'src/utils/Common.css';
 import React from 'react';
 
 import { motion } from 'framer-motion';
-import { ExitAnimation } from 'src/utils/Animations.tsx';
+import { itemVariants } from 'src/utils/Animations.tsx';
 import { useTranslation } from 'react-i18next';
 import {
   Section,
@@ -12,6 +12,7 @@ import {
   Skills,
 } from 'src/components/pages/skills/SkillsList.tsx';
 import SkillsSections from 'src/components/pages/skills/SkillsSections.tsx';
+import DefaultTabLayout from 'src/components/ui/navigation/DefaultTabLayout.tsx';
 
 export default function SkillsPage() {
   const { t } = useTranslation();
@@ -24,25 +25,8 @@ export default function SkillsPage() {
     return skillArr;
   });
 
-  const itemVariants = {
-    hidden: { opacity: 0, y: 10 },
-    visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
-  };
-
   return (
-    <motion.div
-      initial="hidden"
-      animate="visible"
-      variants={{ visible: { transition: { staggerChildren: 0.2 } } }}
-      {...ExitAnimation}
-    >
-      <motion.div
-        className={`${styles.headerContainer}`}
-        variants={itemVariants}
-      >
-        <span className={`title`}>{t('skills.title')}</span>
-        <span className={`desc`}>{t('skills.desc')}</span>
-      </motion.div>
+    <DefaultTabLayout title={'skills.title'} description={'skills.desc'}>
       <div className={`${styles.skillsSectionContainer}`}>
         {sectionSkill.map((skills: ISkill[], idx: number) => {
           return (
@@ -60,6 +44,6 @@ export default function SkillsPage() {
           );
         })}
       </div>
-    </motion.div>
+    </DefaultTabLayout>
   );
 }

@@ -4,7 +4,7 @@ export default {
       home: 'Home',
       skills: 'Habilidades',
       projects: 'Projetos',
-      formation: 'Formação',
+      formation: 'Experiencias',
       about: 'Sobre mim',
       portuguese: 'Português',
       english: 'English',

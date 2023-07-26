@@ -2,6 +2,7 @@ import React from 'react';
 import HomePage from 'src/components/pages/home/HomePage.tsx';
 import SkillsPage from 'src/components/pages/skills/SkillsPage.tsx';
 import ProjectsPage from 'src/components/pages/projects/ProjectsPage.tsx';
+import ExperiencesPage from 'src/components/pages/experiences/ExperiencesPage.tsx';
 
 export interface IRoute {
   path: string;
@@ -13,31 +14,31 @@ export interface IRoute {
 export const NavbarPagesRoutes: Array<IRoute> = [
   {
     path: '/',
-    title: 'navbar.home',
+    title: 'home.title',
     icon: 'fa-solid fa-house',
     component: <HomePage />,
   },
   {
     path: '/skills',
-    title: 'navbar.skills',
+    title: 'skills.title',
     icon: 'fa-solid fa-hammer',
     component: <SkillsPage />,
   },
   {
     path: '/projects',
-    title: 'navbar.projects',
+    title: 'projects.title',
     icon: 'fa-solid fa-list-check',
     component: <ProjectsPage />,
   },
   {
-    path: '/',
-    title: 'navbar.formation',
+    path: '/experiences',
+    title: 'experiences.title',
     icon: 'fa-solid fa-vial',
-    component: <HomePage />,
+    component: <ExperiencesPage />,
   },
   {
-    path: '/',
-    title: 'navbar.about',
+    path: '/about',
+    title: 'about.title',
     icon: 'fa-solid fa-question',
     component: <HomePage />,
   },

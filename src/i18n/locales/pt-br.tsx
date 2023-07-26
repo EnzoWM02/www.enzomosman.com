@@ -1,11 +1,6 @@
 export default {
   translations: {
     navbar: {
-      home: 'Home',
-      skills: 'Habilidades',
-      projects: 'Projetos',
-      formation: 'Experiencias',
-      about: 'Sobre mim',
       portuguese: 'Português',
       english: 'English',
       downloadCv: 'Baixar Currículo',
@@ -15,6 +10,7 @@ export default {
       },
     },
     home: {
+      title: 'Home',
       title1: 'Olá, eu sou o Enzo',
       title2:
         'Eu sou um desenvolvedor Fullstack que soluciona problemas usando tecnologia',
@@ -59,6 +55,14 @@ export default {
         },
       },
       comingSoon: 'Mais projetos em breve...',
+    },
+    experiences: {
+      title: 'Experiências',
+      tab1: 'Profissional',
+      tab2: 'Formação',
+    },
+    about: {
+      title: 'Sobre mim',
     },
     learnMore: 'Saiba mais'
   },

@@ -1,0 +1,23 @@
+.experiencesPageWrapper {
+    margin-top: 32px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 8fr;
+}
+
+.tabs {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-top: 12px;
+}
+
+.tabs :global(span) {
+    color: #8b8b8b;
+    font-size: 22px;
+}
+
+.separator {
+    height: 162px;
+    width: 1px;
+    background-color: rgba(255, 255, 255, 0.1);
+}

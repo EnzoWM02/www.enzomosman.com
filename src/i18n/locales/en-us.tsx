@@ -57,6 +57,8 @@ export default {
     },
     experiences: {
       title: 'Experiences',
+      tab1: 'Professional',
+      tab2: 'Formation',
     },
     about: {
       title: 'About me',

@@ -1,7 +1,7 @@
 .experiencesPageWrapper {
     margin-top: 32px;
     display: grid;
-    grid-template-columns: 1fr 1fr 8fr;
+    grid-template-columns: 1.5fr 1fr 11fr;
 }
 
 .tabs {
@@ -12,10 +12,19 @@
 }
 
 .tabs :global(span) {
-    color: #8b8b8b;
+    color: #333333;
     font-size: 22px;
+    cursor: pointer;
+    transition: color ease 0.2s;
 }
 
+.tabs :global(span):hover {
+    color: white;
+}
+
+.tabs :global(span).active {
+    color: white;
+}
 .separator {
     height: 162px;
     width: 1px;

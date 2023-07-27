@@ -1,22 +1,43 @@
-import styles from './ExperiencesPage.module.css'
+import styles from './ExperiencesPage.module.css';
 
-import React from 'react';
+import React, { useState } from 'react';
 import DefaultTabLayout from 'src/components/ui/navigation/DefaultTabLayout.tsx';
 import { useTranslation } from 'react-i18next';
+import { itemVariants } from 'src/utils/Animations.tsx';
+import { motion } from 'framer-motion';
 
-export default function ExperiencesPage () {
+export default function ExperiencesPage() {
+  enum tabs {
+    'professional',
+    'formation',
+  }
 
-  const {t} = useTranslation();
+  const { t } = useTranslation();
+  const [selectedTab, setSelectedTab] = useState(tabs.professional);
 
   return (
     <DefaultTabLayout title={'experiences.title'}>
-      <div className={`${styles.experiencesPageWrapper}`}>
+      <div
+        className={`${styles.experiencesPageWrapper}`}
+      >
         <div className={`${styles.tabs}`}>
-          <span>{t('experiences.tab1')}</span>
-          <span>{t('experiences.tab2')}</span>
+          <motion.span
+            variants={itemVariants}
+            className={`${selectedTab === tabs.professional && styles.active}`}
+            onClick={() => setSelectedTab(tabs.professional)}
+          >
+            {t('experiences.tab1')}
+          </motion.span>
+          <motion.span
+            variants={itemVariants}
+            className={`${selectedTab === tabs.formation && styles.active}`}
+            onClick={() => setSelectedTab(tabs.formation)}
+          >
+            {t('experiences.tab2')}
+          </motion.span>
         </div>
-        <div className={`${styles.separator}`} />
+        <motion.div variants={itemVariants} className={`${styles.separator}`} />
       </div>
     </DefaultTabLayout>
-  )
+  );
 }

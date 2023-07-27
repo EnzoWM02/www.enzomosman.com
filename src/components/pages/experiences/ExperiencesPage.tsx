@@ -37,7 +37,31 @@ export default function ExperiencesPage() {
           </motion.span>
         </div>
         <motion.div variants={itemVariants} className={`${styles.separator}`} />
+        <motion.div variants={itemVariants}>
+          {selectedTab === tabs.professional && (
+            <ProfessionalTab />
+          )}
+          {selectedTab === tabs.formation && (
+            <FormationTab />
+          )}
+        </motion.div>
       </div>
     </DefaultTabLayout>
   );
+}
+
+function ProfessionalTab () {
+  return (
+    <motion.div variants={itemVariants}>
+      profissional
+    </motion.div>
+  )
+}
+
+function FormationTab () {
+  return (
+    <motion.div variants={itemVariants} >
+      formacao
+    </motion.div>
+  )
 }

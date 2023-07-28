@@ -23,7 +23,7 @@ export default {
         frontend: 'Frontend',
         backend: 'Backend',
         others: 'Outros',
-        softSkills: 'Soft Skills'
+        softSkills: 'Soft Skills',
       },
       list: {
         html: 'HTML',
@@ -51,7 +51,8 @@ export default {
       list: {
         portfolio: {
           title: 'Portfolio',
-          description: 'O meu primeiro projeto publicado. Ele representa uma visão geral de tudo que eu posso oferecer como desenvolvedor, com meus projetos, habilidades e experiências a mostra.',
+          description:
+            'O meu primeiro projeto publicado. Ele representa uma visão geral de tudo que eu posso oferecer como desenvolvedor, com meus projetos, habilidades e experiências a mostra.',
         },
       },
       comingSoon: 'Mais projetos em breve...',
@@ -60,10 +61,26 @@ export default {
       title: 'Experiências',
       tab1: 'Profissional',
       tab2: 'Formação',
+      professional: {
+        technicalSupportBimachine: {
+          date: 'Outubro/2021 - Junho/2022',
+          title: 'Técnico de Suporte',
+          company: 'BIMachine',
+          description:
+            'ablublebllbawlbableblaeblaelblalba aleblableblalbelbla abealblalbalbleabl laeblalblalbl',
+        },
+        fullStackDevBimachine: {
+          date: 'Junho/2022 - Hoje',
+          title: 'Desenvolvedor FullStack',
+          company: 'BIMachine',
+          description:
+            'asdaoskdowqkqdo qwokdwqokdowqkdo qwkodk qwokd owqkodkqw odkowqkdwqkodkwqodkwq owqdqwd',
+        },
+      },
     },
     about: {
       title: 'Sobre mim',
     },
-    learnMore: 'Saiba mais'
+    learnMore: 'Saiba mais',
   },
 };

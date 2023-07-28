@@ -1,7 +1,7 @@
 .experiencesPageWrapper {
     margin-top: 32px;
     display: grid;
-    grid-template-columns: 1.5fr 1fr 11fr;
+    grid-template-columns: 20% 80%;
 }
 
 .tabs {
@@ -29,4 +29,9 @@
     height: 162px;
     width: 1px;
     background-color: rgba(255, 255, 255, 0.1);
+}
+
+.sideBar {
+    display: flex;
+    gap: 20px;
 }

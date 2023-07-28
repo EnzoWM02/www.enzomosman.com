@@ -1,0 +1,39 @@
+.timeLineWrapper {
+    width: 75%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.itemsContainer {
+
+}
+
+.ball {
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    background: linear-gradient(
+            90deg,
+            var(--primary-orange),
+            var(--primary-pink)
+    );
+    border: 3px solid white;
+}
+
+.line {
+    width: 2px;
+    height: 30px;
+    background-color: white;
+}
+
+.lineContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.dataTitle {
+    color: white;
+    font-weight: 600;
+}

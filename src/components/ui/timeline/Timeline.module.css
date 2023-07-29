@@ -1,12 +1,11 @@
 .timeLineWrapper {
-    width: 75%;
     justify-content: center;
     align-items: center;
     display: flex;
 }
 
 .itemsContainer {
-
+    width: 100%;
 }
 
 .ball {
@@ -23,17 +22,76 @@
 
 .line {
     width: 2px;
-    height: 30px;
     background-color: white;
+    height: calc(100% - 20px);
+}
+
+.last .line {
+    height: calc(100% - 40px);
 }
 
 .lineContainer {
     display: flex;
     align-items: center;
     flex-direction: column;
+    height: 100%;
+}
+
+.timelineSectionContainer {
+    display: grid;
+    grid-template-columns: 45% 5% 45%;
+    gap: 15px;
+}
+
+.dataSectionContainer, .dateSectionContainer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+
+}
+
+.left .dataSectionContainer,
+.right .dateSectionContainer {
+    text-align: end;
+}
+
+.dateSectionContainer {
+    padding: 12px 0;
+}
+
+.dataSectionContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background: rgba(68, 60, 104, 0.16);
+    box-shadow: 0 1px 3px var(--soft-shadow-purple);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 8px;
+    padding: 12px 12px;
 }
 
 .dataTitle {
     color: white;
     font-weight: 600;
+    font-size: 17px;
+}
+
+.dataDesc {
+    color: rgb(255 255 255 /0.70);
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.dateTitle {
+    color: white;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.dateCompany {
+    margin-top: 5px;
+    color: rgb(255 255 255 /0.35);
+    font-size: 12px;
+    font-style: italic;
 }

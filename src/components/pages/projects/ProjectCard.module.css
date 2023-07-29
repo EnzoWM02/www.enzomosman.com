@@ -1,7 +1,7 @@
 .cardWrapper {
     border-radius: 16px;
     background: rgba(68, 60, 104, 0.16);
-    box-shadow: 0 4px 16px var(--soft-shadow-purple);
+    box-shadow: 0 1px 3px var(--soft-shadow-purple);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     padding-bottom: 28px;

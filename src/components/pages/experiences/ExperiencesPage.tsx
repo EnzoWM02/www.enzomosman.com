@@ -19,37 +19,38 @@ export default function ExperiencesPage() {
 
   return (
     <DefaultTabLayout title={'experiences.title'}>
-      <div className={`${styles.experiencesPageWrapper}`}>
+      <motion.div
+        variants={itemVariants}
+        className={`${styles.experiencesPageWrapper}`}
+      >
         <div className={`${styles.sideBar}`}>
           <div className={`${styles.tabs}`}>
-            <motion.span
-              variants={itemVariants}
+            <span
               className={`${
                 selectedTab === tabs.professional && styles.active
               }`}
               onClick={() => setSelectedTab(tabs.professional)}
             >
               {t('experiences.tab1')}
-            </motion.span>
-            <motion.span
-              variants={itemVariants}
+            </span>
+            <span
               className={`${selectedTab === tabs.formation && styles.active}`}
               onClick={() => setSelectedTab(tabs.formation)}
             >
               {t('experiences.tab2')}
-            </motion.span>
+            </span>
           </div>
-          <motion.div
-            variants={itemVariants}
-            className={`${styles.separator}`}
-          />
+          <div className={`${styles.separator}`} />
         </div>
 
-        <motion.div variants={itemVariants}>
+        <motion.div
+          variants={itemVariants}
+          className={`${styles.tabsContainer}`}
+        >
           {selectedTab === tabs.professional && <ProfessionalTab />}
           {selectedTab === tabs.formation && <FormationTab />}
         </motion.div>
-      </div>
+      </motion.div>
     </DefaultTabLayout>
   );
 }

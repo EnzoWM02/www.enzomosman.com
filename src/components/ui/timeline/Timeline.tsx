@@ -1,6 +1,7 @@
 import styles from './Timeline.module.css';
-import { ProfessionalExperiencesList } from 'src/components/pages/experiences/ExperiencesList.tsx';
 import { useTranslation } from 'react-i18next';
+import { motion } from 'framer-motion';
+import { itemVariants } from 'src/utils/Animations.tsx';
 
 export type TimelineSectionData = {
   date: string;
@@ -33,6 +34,7 @@ export default function Timeline({ className = '', items }: ITimeline) {
 }
 
 interface IDataSection {
+  className?: string;
   item: TimelineSectionData;
 }
 
@@ -43,23 +45,38 @@ interface ITimelineSection extends IDataSection {
 
 function TimelineSection({ item, left, last }: ITimelineSection) {
   return (
-    <div className={`${styles.timelineSectionContainer}`}>
-      {left && <DataSection item={item} />}
+    <div
+      className={`${styles.timelineSectionContainer} ${
+        left ? styles.left : styles.right
+      } ${last && styles.last}`}
+    >
+      {left ? <DataSection item={item} /> : <DateSection item={item} />}
       <div className={`${styles.lineContainer}`}>
         <div className={`${styles.ball}`} />
         <div className={`${styles.line}`} />
         {last && <div className={`${styles.ball}`} />}
       </div>
-      {!left && <DataSection item={item} />}
+      {!left ? <DataSection item={item} /> : <DateSection item={item} />}
     </div>
   );
 }
 
-function DataSection({ item }: IDataSection) {
+function DateSection({ item, className = '' }: IDataSection) {
   const { t } = useTranslation();
   return (
-    <div>
-      <span className={`${styles.dataTitle}`}>{t(item.date)}</span>
+    <div className={`${className} ${styles.dateSectionContainer}`}>
+      <span className={`${styles.dateTitle}`}>{t(item.date)}</span>
+      <span className={`${styles.dateCompany}`}>{t(item.company)}</span>
+    </div>
+  );
+}
+
+function DataSection({ item, className = '' }: IDataSection) {
+  const { t } = useTranslation();
+  return (
+    <div className={`${className} ${styles.dataSectionContainer}`}>
+      <span className={`${styles.dataTitle}`}>{t(item.title)}</span>
+      <span className={`${styles.dataDesc}`}>{t(item.description)}</span>
     </div>
   );
 }

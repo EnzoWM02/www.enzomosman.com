@@ -2,6 +2,7 @@
     margin-top: 32px;
     display: grid;
     grid-template-columns: 20% 80%;
+    padding-bottom: 32px;
 }
 
 .tabs {
@@ -34,4 +35,8 @@
 .sideBar {
     display: flex;
     gap: 20px;
+}
+
+.tabsContainer {
+    width: 75%;
 }

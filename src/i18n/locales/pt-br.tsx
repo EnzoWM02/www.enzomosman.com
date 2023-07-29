@@ -67,14 +67,23 @@ export default {
           title: 'Técnico de Suporte',
           company: 'BIMachine',
           description:
-            'ablublebllbawlbableblaeblaelblalba aleblableblalbelbla abealblalbalbleabl laeblalblalbl',
+            'Nessa posição eu trabalhei como um atendente de suporte online de uma plataforma de BI (Business Inteligence) usando e-mail, chats,\n' +
+            'meetings e telefone como forma de comunicação com o cliente. Eu evoluí muito na minha relação com as outras pessoas e na empatia, além\n' +
+            'da minha comunicação, visando clerear o entendimento em ambas as partes. Eu também aprendi como um sistema de BI funciona, entendi\n' +
+            'regras de negócio aplicado ao contexto de empresas, e melhorei minhas habilidades em SQL e MDX para trabalhar com manipulação de\n' +
+            'dados, também usando bancos de dados como PostgreSQL, MySQL, OracleSQL e outros.',
         },
         fullStackDevBimachine: {
           date: 'Junho/2022 - Hoje',
           title: 'Desenvolvedor FullStack',
           company: 'BIMachine',
           description:
-            'asdaoskdowqkqdo qwokdwqokdowqkdo qwkodk qwokd owqkodkqw odkowqkdwqkodkwqodkwq owqdqwd',
+            'Nessa posição eu trabalhei com Java, Javascript, ReactJS e PostgreSQL diariamente. Meu trabalho era fazer novas funcionalidades e resolver\n' +
+            'bugs em uma plataforma web de BI (Business Inteligence). Algumas das maiores funcionalidades que eu trabalhei foram reescrever interfaces\n' +
+            'inteiras de JSF para ReactJS, criação de um ColorPicker do zero usando JS e ReactJS e criação de novos sistemas inteiros, como uma\n' +
+            'laboratório de novas funcionalidades para os clientes testarem.\n' +
+            'Como era meu primeiro trabalho como desenvolvedor, eu aprendi muito sobre como manter uma aplicação rodando, como aplicar práticas\n' +
+            'de clean code no meu código e como trabalhar em conjunto com um time de desenvolvedores, com metodologias como SCRUM e outros.',
         },
       },
     },

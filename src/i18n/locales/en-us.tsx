@@ -6,8 +6,8 @@ export default {
       downloadCv: 'Download Curriculum',
       menu: 'Menu',
       sidebar: {
-        downloadCv: 'Download Curriculum'
-      }
+        downloadCv: 'Download Curriculum',
+      },
     },
     home: {
       title: 'Home',
@@ -22,7 +22,7 @@ export default {
         frontend: 'Frontend',
         backend: 'Backend',
         others: 'Others',
-        softSkills: 'Soft Skills'
+        softSkills: 'Soft Skills',
       },
       list: {
         html: 'HTML',
@@ -50,7 +50,8 @@ export default {
       list: {
         portfolio: {
           title: 'Portfolio',
-          description: 'My first published project. It represents an overview of all I can offer as a developer. It contains my projects, skills and experiences.',
+          description:
+            'My first published project. It represents an overview of all I can offer as a developer. It contains my projects, skills and experiences.',
         },
       },
       comingSoon: 'Coming soon...',
@@ -59,10 +60,24 @@ export default {
       title: 'Experiences',
       tab1: 'Professional',
       tab2: 'Formation',
+      professional: {
+        technicalSupportBimachine: {
+          date: 'October/2021 - June/2022',
+          title: 'Technical Support',
+          company: 'BIMachine',
+          description: '',
+        },
+        fullStackDevBimachine: {
+          date: 'June/2022 - Now',
+          title: 'Fullstack developer',
+          company: 'BIMachine',
+          description: '',
+        },
+      },
     },
     about: {
       title: 'About me',
     },
-    learnMore: 'Learn more'
+    learnMore: 'Learn more',
   },
 };

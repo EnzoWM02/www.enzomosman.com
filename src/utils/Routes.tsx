@@ -3,6 +3,7 @@ import HomePage from 'src/components/pages/home/HomePage.tsx';
 import SkillsPage from 'src/components/pages/skills/SkillsPage.tsx';
 import ProjectsPage from 'src/components/pages/projects/ProjectsPage.tsx';
 import ExperiencesPage from 'src/components/pages/experiences/ExperiencesPage.tsx';
+import AboutPage from 'src/components/pages/about/AboutPage.tsx';
 
 export interface IRoute {
   path: string;
@@ -40,6 +41,6 @@ export const NavbarPagesRoutes: Array<IRoute> = [
     path: '/about',
     title: 'about.title',
     icon: 'fa-solid fa-question',
-    component: <HomePage />,
+    component: <AboutPage />,
   },
 ];

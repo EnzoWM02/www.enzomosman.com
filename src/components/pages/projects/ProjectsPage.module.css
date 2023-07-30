@@ -19,6 +19,10 @@
     opacity: 0.5;
 }
 
+:global(.lowRes) .lowFidelityImage {
+    width: 90vw;
+}
+
 @keyframes skeleton-loading {
     0% {
         opacity: 1;

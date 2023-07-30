@@ -7,6 +7,10 @@
     padding-bottom: 28px;
 }
 
+:global(.lowRes) .cardWrapper {
+    width: 90vw;
+}
+
 .imageSkillsContainer {
     width: 100%;
     overflow: hidden;

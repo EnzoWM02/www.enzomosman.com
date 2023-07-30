@@ -22,7 +22,7 @@
   overflow: hidden;
 }
 
-.pageWrapper:global(.mobile) {
+.pageWrapper:global(.lowRes).pageWrapper:global(.mobile) {
   min-height: calc(100vh - 122px);
   padding-bottom: 122px;
 }

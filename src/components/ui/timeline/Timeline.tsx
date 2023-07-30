@@ -1,12 +1,10 @@
 import styles from './Timeline.module.css';
 import { useTranslation } from 'react-i18next';
-import { motion } from 'framer-motion';
-import { itemVariants } from 'src/utils/Animations.tsx';
 
 export type TimelineSectionData = {
   date: string;
-  title: string;
   company: string;
+  title: string;
   description: string;
 };
 

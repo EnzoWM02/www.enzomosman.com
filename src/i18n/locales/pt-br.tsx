@@ -64,8 +64,8 @@ export default {
       professional: {
         technicalSupportBimachine: {
           date: 'Outubro/2021 - Junho/2022',
-          title: 'Técnico de Suporte',
           company: 'BIMachine',
+          title: 'Técnico de Suporte',
           description:
             'Nessa posição eu trabalhei como um atendente de suporte online de uma plataforma de BI (Business Inteligence) usando e-mail, chats,\n' +
             'meetings e telefone como forma de comunicação com o cliente. Eu evoluí muito na minha relação com as outras pessoas e na empatia, além\n' +
@@ -75,8 +75,8 @@ export default {
         },
         fullStackDevBimachine: {
           date: 'Junho/2022 - Hoje',
-          title: 'Desenvolvedor FullStack',
           company: 'BIMachine',
+          title: 'Desenvolvedor FullStack',
           description:
             'Nessa posição eu trabalhei com Java, Javascript, ReactJS e PostgreSQL diariamente. Meu trabalho era fazer novas funcionalidades e resolver\n' +
             'bugs em uma plataforma web de BI (Business Inteligence). Algumas das maiores funcionalidades que eu trabalhei foram reescrever interfaces\n' +
@@ -84,6 +84,29 @@ export default {
             'laboratório de novas funcionalidades para os clientes testarem.\n' +
             'Como era meu primeiro trabalho como desenvolvedor, eu aprendi muito sobre como manter uma aplicação rodando, como aplicar práticas\n' +
             'de clean code no meu código e como trabalhar em conjunto com um time de desenvolvedores, com metodologias como SCRUM e outros.',
+        },
+      },
+      formation: {
+        bomJesus: {
+          date: 'Fevereiro/2007 - Dezembro/2019',
+          company: 'Bom Jesus',
+          title: 'Ensino fundamental e médio',
+          description:
+            'Completei o ensino fundamental e o ensino médio na escola Bom Jesus em Venâncio Aires - RS.',
+        },
+        fisk: {
+          date: 'Fevereiro/2013 - Dezembro/2019',
+          company: 'Fisk',
+          title: 'Curso de inglês',
+          description:
+            'Realizei o curso completo de inglês da Fisk, terminando o curso com a nota C1 pelo exame internacional MET',
+        },
+        softwareEngineer: {
+          date: 'Fevereiro/2020 - Dezembro/2024',
+          company: 'Univates',
+          title: 'Gradução em Engenharia de Software',
+          description:
+            'Com o objetivo de conhecer com mais amplitude o universo de desenvolvimento, estou realizando o curso de engenharia de software',
         },
       },
     },

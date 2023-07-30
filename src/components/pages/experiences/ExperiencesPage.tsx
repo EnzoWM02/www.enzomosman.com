@@ -6,7 +6,10 @@ import { useTranslation } from 'react-i18next';
 import { itemVariants } from 'src/utils/Animations.tsx';
 import { motion } from 'framer-motion';
 import Timeline from 'src/components/ui/timeline/Timeline.tsx';
-import { ProfessionalExperiencesList } from 'src/components/pages/experiences/ExperiencesList.tsx';
+import {
+  FormationExperiencesList,
+  ProfessionalExperiencesList,
+} from 'src/components/pages/experiences/ExperiencesList.tsx';
 
 export default function ExperiencesPage() {
   enum tabs {
@@ -56,7 +59,6 @@ export default function ExperiencesPage() {
 }
 
 function ProfessionalTab() {
-  console.log('ProfessionalExperiencesList', ProfessionalExperiencesList);
   return (
     <motion.div variants={itemVariants}>
       <Timeline items={ProfessionalExperiencesList} />
@@ -65,5 +67,9 @@ function ProfessionalTab() {
 }
 
 function FormationTab() {
-  return <motion.div variants={itemVariants}>formacao</motion.div>;
+  return (
+    <motion.div variants={itemVariants}>
+      <Timeline items={FormationExperiencesList} />
+    </motion.div>
+  );
 }

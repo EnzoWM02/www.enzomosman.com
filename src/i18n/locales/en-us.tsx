@@ -65,13 +65,40 @@ export default {
           date: 'October/2021 - June/2022',
           title: 'Technical Support',
           company: 'BIMachine',
-          description: '',
+          description:
+            'In this position I worked with Java, JavaScript, ReactJS and PostgreSQL in a daily basis. My job was to make new features and fix bugs in a Business Inteligence web service application. Some big features I worked on were rewriting whole JSF interfaces to ReactJS interfaces, making a gradient color picker figma-like from scratch using JS and ReactJS and building new systems like a Labs for new features to be tested.\n' +
+            'As it was my first job as a developer, I learned a lot on how to keep an application running, how to apply clean code practices in my code and how to work with a development team, with methodologies such as scrum and others.',
         },
         fullStackDevBimachine: {
           date: 'June/2022 - Now',
           title: 'Fullstack developer',
           company: 'BIMachine',
-          description: '',
+          description:
+            'In this position I worked with Java, JavaScript, ReactJS and PostgreSQL in a daily basis. My job was to make new features and fix bugs in a Business Inteligence web service application. Some big features I worked on were rewriting whole JSF interfaces to ReactJS interfaces, making a gradient color picker figma-like from scratch using JS and ReactJS and building new systems like a Labs for new features to be tested.\n' +
+            'As it was my first job as a developer, I learned a lot on how to keep an application running, how to apply clean code practices in my code and how to work with a development team, with methodologies such as scrum and others.',
+        },
+      },
+      formation: {
+        bomJesus: {
+          date: 'February/2007 - December/2019',
+          company: 'Bom Jesus',
+          title: 'Elementary and high school',
+          description:
+            'I completed elementary and high school in Bom Jesus institution at Venâncio Aires, RS, Brazil',
+        },
+        fisk: {
+          date: 'February/2013 - December/2019',
+          company: 'Fisk',
+          title: 'English Course',
+          description:
+            'I took the english course at Fisk institution, ending with a C1 grade on the MET international exam',
+        },
+        softwareEngineer: {
+          date: 'February/2020 - December/2024',
+          company: 'Univates',
+          title: "Software Engineer Bachelor's degree",
+          description:
+            "Aiming to achieve a broader understand in software development, I'm currently pursuing a course in software engineering",
         },
       },
     },

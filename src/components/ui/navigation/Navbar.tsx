@@ -31,52 +31,52 @@ function MobileNavbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-      <div
-        className={`${
-          layoutContext.mobileBreakpoint
-            ? styles.mobileLowResNavbar
-            : styles.mobileNavbarContainer
-        }`}
-      >
-        <div className={`${styles.mobileNavbarIconsContainer}`}>
-          {NavbarPagesRoutes.map((route: IRoute, idx: number) => {
-            if (layoutContext.isLowRes && route.title === 'navbar.about') return;
-            return (
-              <Link key={`linkroute_${idx}`} to={route.path}>
-                <div className={`${styles.iconTitleContainer}`}>
-                  <i className={`${route.icon}`} />
-                  <span className={`${styles.iconTitle}`}>{t(route.title)}</span>
-                </div>
-              </Link>
-            );
-          })}
-          {layoutContext.isLowRes && (
-            <div
-              className={`${styles.iconTitleContainer}`}
-              onClick={() => setMenuOpen(true)}
-            >
-              <i className="fa-solid fa-bars" />
-              <span className={`${styles.iconTitle}`}>{t('navbar.menu')}</span>
-            </div>
-          )}
-        </div>
-        <MenuSidebar
-          open={menuOpen}
-          onClose={() => setMenuOpen(false)}
-          header={<MarketingHeader />}
-          footer={<LanguageSwitch className={`${styles.mobileLanguageSwitch}`} />}
-        >
-          <SidebarOption
-            icon={'fa-solid fa-question'}
-            title={t('navbar.about')}
-            to={'/'}
-          />
-          <SidebarOption
-            icon={'fa-solid fa-download'}
-            title={t('navbar.sidebar.downloadCv')}
-          />
-        </MenuSidebar>
+    <div
+      className={`${
+        layoutContext.mobileBreakpoint
+          ? styles.mobileLowResNavbar
+          : styles.mobileNavbarContainer
+      }`}
+    >
+      <div className={`${styles.mobileNavbarIconsContainer}`}>
+        {NavbarPagesRoutes.map((route: IRoute, idx: number) => {
+          if (layoutContext.isLowRes && route.title === 'about.title') return;
+          return (
+            <Link key={`linkroute_${idx}`} to={route.path}>
+              <div className={`${styles.iconTitleContainer}`}>
+                <i className={`${route.icon}`} />
+                <span className={`${styles.iconTitle}`}>{t(route.title)}</span>
+              </div>
+            </Link>
+          );
+        })}
+        {layoutContext.isLowRes && (
+          <div
+            className={`${styles.iconTitleContainer}`}
+            onClick={() => setMenuOpen(true)}
+          >
+            <i className="fa-solid fa-bars" />
+            <span className={`${styles.iconTitle}`}>{t('navbar.menu')}</span>
+          </div>
+        )}
       </div>
+      <MenuSidebar
+        open={menuOpen}
+        onClose={() => setMenuOpen(false)}
+        header={<MarketingHeader />}
+        footer={<LanguageSwitch className={`${styles.mobileLanguageSwitch}`} />}
+      >
+        <SidebarOption
+          icon={'fa-solid fa-question'}
+          title={t('about.title')}
+          to={'/'}
+        />
+        <SidebarOption
+          icon={'fa-solid fa-download'}
+          title={t('navbar.sidebar.downloadCv')}
+        />
+      </MenuSidebar>
+    </div>
   );
 }
 

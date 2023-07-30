@@ -26,3 +26,7 @@
   min-height: calc(100vh - 122px);
   padding-bottom: 122px;
 }
+
+.pageWrapper:global(.lowRes) {
+  padding-bottom: 40px;
+}

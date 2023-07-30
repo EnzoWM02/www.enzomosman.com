@@ -15,7 +15,7 @@ import DefaultTabLayout from 'src/components/ui/navigation/DefaultTabLayout.tsx'
 
 export default function HomePage() {
   const { t } = useTranslation();
-  const { mobileBreakpoint } = useLayoutContext();
+  const { isLowRes } = useLayoutContext();
 
   const imageVariant = {
     hidden: { opacity: 0, x: -25 },
@@ -34,7 +34,7 @@ export default function HomePage() {
         >
           {t('home.title2')}
         </motion.span>
-        {mobileBreakpoint && (
+        {isLowRes && (
           <motion.div
             variants={itemVariants}
             className={`${styles.mobileImageContainer}`}
@@ -46,7 +46,7 @@ export default function HomePage() {
             />
           </motion.div>
         )}
-        {!mobileBreakpoint && (
+        {!isLowRes && (
           <motion.span variants={itemVariants} className={`${styles.desc}`}>
             {t('home.desc')}
           </motion.span>
@@ -57,13 +57,13 @@ export default function HomePage() {
         >
           <SocialButtons />
         </motion.div>
-        {mobileBreakpoint && (
+        {isLowRes && (
           <motion.span variants={itemVariants} className={`${styles.desc}`}>
             {t('home.desc')}
           </motion.span>
         )}
       </div>
-      {!mobileBreakpoint && (
+      {!isLowRes && (
         <motion.div
           variants={imageVariant}
           className={`${styles.imageContainer}`}

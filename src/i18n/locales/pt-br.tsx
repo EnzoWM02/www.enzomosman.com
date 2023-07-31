@@ -69,7 +69,7 @@ export default {
           description:
             'Nessa posição eu trabalhei como um atendente de suporte online de uma plataforma de BI (Business Inteligence) usando e-mail, chats,\n' +
             'meetings e telefone como forma de comunicação com o cliente. Eu evoluí muito na minha relação com as outras pessoas e na empatia, além\n' +
-            'da minha comunicação, visando clerear o entendimento em ambas as partes. Eu também aprendi como um sistema de BI funciona, entendi\n' +
+            'da minha comunicação, visando clarear o entendimento em ambas as partes. Eu também aprendi como um sistema de BI funciona, entendi\n' +
             'regras de negócio aplicado ao contexto de empresas, e melhorei minhas habilidades em SQL e MDX para trabalhar com manipulação de\n' +
             'dados, também usando bancos de dados como PostgreSQL, MySQL, OracleSQL e outros.',
         },
@@ -112,7 +112,13 @@ export default {
     },
     about: {
       title: 'Sobre mim',
+      copy: 'Eu sou um desenvolvedor de software fullstack que é apaixonado pela sua carreira, ama aprender novas tecnologias e conhecer novas pessoas.\n' +
+        'Atualmente estou cursando engenharia de software na univates, em Lajeado - RS.\n' +
+        'Minha stack favorita é Java + Typescript com ReactJS, mas estou sempre aberto para aprender novas tecnologias\n' +
+        'Se estiver interessado em meu trabalho ou quiser apenas trocar uma idéia, estou aberto para mensagens no meu Linkedin ou no meu e-mail.',
+      email: 'enzowmosman@gmail.com',
     },
     learnMore: 'Saiba mais',
+    email: 'E-mail',
   },
 };

@@ -1,3 +1,91 @@
 .pageWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.pageContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 32px;
+    width: 90%;
+    gap: 32px;
+}
+
+.imageShapeContainer {
+    margin-right: 62px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    height: 30vw;
+}
+
+.firstCircle {
+    position: absolute;
+    background: var(--primary-purple-dark-menu);
+    box-shadow: 0 1px 16px var(--soft-shadow-purple);
+    width: 65%;
+    height: 65%;
+    border-radius: 100%;
+}
+
+.secondCircle {
+    position: absolute;
+    background: var(--soft-shadow-purple);
+    width: 60%;
+    height: 60%;
+    border-radius: 100%;
+    right: 15%;
+    bottom: 18%;
+}
+
+.photoContainer {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.photo {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    border-radius: 100%;
+    box-shadow: 0 1px 3px var(--soft-shadow-purple);
+    bottom: 18%;
+    left: 30%;
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 18px;
+}
+
+.copy {
+    color: white;
+}
+
+.email {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.email :global(span) {
+    color: rgb(255 255 255 / 0.65);
+}
+
+.email :global(i) {
+    position: relative;
+    bottom: -1px;
+    color: rgb(255 255 255 / 0.65);
+}
+
+.sideBar {
+    width: 100%;
+    height: 2px;
+    background-color: var(--shadow-pink);
 }

@@ -23,6 +23,7 @@ export default function Timeline({ className = '', items }: ITimeline) {
               item={item}
               left={!!(idx % 2)}
               last={items.length - 1 === idx}
+              key={idx}
             />
           );
         })}

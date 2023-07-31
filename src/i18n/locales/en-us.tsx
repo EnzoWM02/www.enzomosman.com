@@ -104,7 +104,13 @@ export default {
     },
     about: {
       title: 'About me',
+      copy: 'I\'m a Full Stack Software Engineer which is passionate about it\'s job, loves learning new technologies and meeting new people.\n' +
+        'I\'m currently doing a Bachelor\'s Degree for Software Engineer in University of Vale do Taquari (Univates).\n' +
+        'My favorite Stack to work with is Java + Javascript with ReactJS, but I\'m open to learn any technology.\n' +
+        'If you want to talk with me I\'m open to messages or send me an e-mail',
+      email: 'enzowmosman@gmail.com',
     },
     learnMore: 'Learn more',
+    email: 'E-mail',
   },
 };

@@ -13,7 +13,7 @@ export default {
       title: 'Home',
       title1: 'Olá, eu sou o Enzo',
       title2:
-        'Eu sou um desenvolvedor Fullstack que soluciona problemas usando tecnologia',
+        'Eu sou um desenvolvedor Full Stack que soluciona problemas usando tecnologia',
       desc: 'Mais de 1 ano de experiência profissional trabalhando com diversas tecnologias para entregar qualidade e resultados. Eu sou uma pessoa animada, que aprende rápido e tem vontade de crescer.',
     },
     skills: {
@@ -76,7 +76,7 @@ export default {
         fullStackDevBimachine: {
           date: 'Junho/2022 - Hoje',
           company: 'BIMachine',
-          title: 'Desenvolvedor FullStack',
+          title: 'Desenvolvedor Full Stack',
           description:
             'Nessa posição eu trabalhei com Java, Javascript, ReactJS e PostgreSQL diariamente. Meu trabalho era fazer novas funcionalidades e resolver\n' +
             'bugs em uma plataforma web de BI (Business Inteligence). Algumas das maiores funcionalidades que eu trabalhei foram reescrever interfaces\n' +
@@ -112,7 +112,8 @@ export default {
     },
     about: {
       title: 'Sobre mim',
-      copy: 'Eu sou um desenvolvedor de software fullstack que é apaixonado pela sua carreira, ama aprender novas tecnologias e conhecer novas pessoas.\n' +
+      copy:
+        'Eu sou um desenvolvedor de software full stack que é apaixonado pela sua carreira, ama aprender novas tecnologias e conhecer novas pessoas.\n' +
         'Atualmente estou cursando engenharia de software na univates, em Lajeado - RS.\n' +
         'Minha stack favorita é Java + Typescript com ReactJS, mas estou sempre aberto para aprender novas tecnologias\n' +
         'Se estiver interessado em meu trabalho ou quiser apenas trocar uma idéia, estou aberto para mensagens no meu Linkedin ou no meu e-mail.',

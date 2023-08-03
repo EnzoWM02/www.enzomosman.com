@@ -12,7 +12,7 @@ export default {
     home: {
       title: 'Home',
       title1: "Hello, I'm Enzo",
-      title2: "I'm a Fullstack developer who solves problems with technology",
+      title2: "I'm a Full Stack developer who solves problems with technology",
       desc: "Over a year of professional experience working with several technologies to bring quality and results. I'm a passionate person who learns fast and is eager to grow",
     },
     skills: {
@@ -71,7 +71,7 @@ export default {
         },
         fullStackDevBimachine: {
           date: 'June/2022 - Now',
-          title: 'Fullstack developer',
+          title: 'Full Stack developer',
           company: 'BIMachine',
           description:
             'In this position I worked with Java, JavaScript, ReactJS and PostgreSQL in a daily basis. My job was to make new features and fix bugs in a Business Inteligence web service application. Some big features I worked on were rewriting whole JSF interfaces to ReactJS interfaces, making a gradient color picker figma-like from scratch using JS and ReactJS and building new systems like a Labs for new features to be tested.\n' +
@@ -104,10 +104,11 @@ export default {
     },
     about: {
       title: 'About me',
-      copy: 'I\'m a Full Stack Software Engineer which is passionate about it\'s job, loves learning new technologies and meeting new people.\n' +
-        'I\'m currently doing a Bachelor\'s Degree for Software Engineer in University of Vale do Taquari (Univates).\n' +
-        'My favorite Stack to work with is Java + Javascript with ReactJS, but I\'m open to learn any technology.\n' +
-        'If you want to talk with me I\'m open to messages or send me an e-mail',
+      copy:
+        "I'm a Full Stack Software Engineer which is passionate about it's job, loves learning new technologies and meeting new people.\n" +
+        "I'm currently doing a Bachelor's Degree for Software Engineer in University of Vale do Taquari (Univates).\n" +
+        "My favorite Stack to work with is Java + Javascript with ReactJS, but I'm open to learn any technology.\n" +
+        "If you want to talk with me I'm open to messages or send me an e-mail",
       email: 'enzowmosman@gmail.com',
     },
     learnMore: 'Learn more',

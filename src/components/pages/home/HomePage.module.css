@@ -11,7 +11,7 @@
   width: 650px;
   position: relative;
   z-index: 2;
-  margin-top: 22vh;
+  margin-top: 7vw;
 }
 
 :global(.lowRes) .titleContainer {
@@ -76,12 +76,7 @@
 
 .imageContainer {
   position: absolute;
-  top: 12vh;
-}
-
-:global(.lowRes) .imageContainer {
-  top: 35vh;
-  left: 23vw;
+  top: 3vw;
 }
 
 @media screen and (max-width: 760px) {

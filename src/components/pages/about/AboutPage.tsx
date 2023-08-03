@@ -35,12 +35,9 @@ export default function AboutPage() {
 function RoundedImageShape() {
   return (
     <motion.div variants={itemVariants} className={`${styles.imageShapeContainer}`}>
-      <div className={`${styles.firstCircle}`} />
-      <div className={`${styles.secondCircle}`} />
       <div className={`${styles.photoContainer}`}>
         <img className={`${styles.photo}`} src={photo} alt={'Enzo photo'} />
       </div>
-
     </motion.div>
   );
 }

@@ -25,8 +25,8 @@
 }
 
 :global(.mobile) .photoContainer {
-    width: 38vw;
-    height: 38vw;
+    width: 210px;
+    height: 210px;
 }
 
 .photoContainer {
@@ -82,8 +82,8 @@
 }
 
 :global(.mobile) .photo {
-    width: 35vw;
-    height: 35vw;
+    width: 180px;
+    height: 180px;
 }
 
 .photo {

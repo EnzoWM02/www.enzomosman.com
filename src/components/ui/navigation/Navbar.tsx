@@ -69,7 +69,7 @@ function MobileNavbar() {
         <SidebarOption
           icon={'fa-solid fa-question'}
           title={t('about.title')}
-          to={'/'}
+          to={'/about'}
         />
         <SidebarOption
           icon={'fa-solid fa-download'}

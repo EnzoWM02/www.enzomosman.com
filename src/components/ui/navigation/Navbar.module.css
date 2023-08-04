@@ -140,6 +140,11 @@
   justify-content: center;
   align-items: center;
   gap: 12px;
+  cursor: pointer;
+}
+
+.iconTitleContainer:hover {
+  text-shadow: 0 0 12px white;
 }
 
 .mobileNavbarIconsContainer :global(i) {

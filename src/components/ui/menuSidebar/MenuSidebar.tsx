@@ -87,7 +87,7 @@ export default function MenuSidebar({
 export interface ISidebarOption {
   icon: string;
   title: string;
-  onClick?: any;
+  onClick?: () => void;
   to?: string;
 }
 

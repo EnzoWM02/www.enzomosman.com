@@ -11,8 +11,6 @@ interface ISkillIcon {
 export default function SkillIcon({ imageName, title = true }: ISkillIcon) {
   const [image, setImage] = useState<string>('');
 
-  console.log(imageName);
-
   useEffect(() => {
     (async function () {
       try {

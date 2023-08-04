@@ -74,6 +74,7 @@ function MobileNavbar() {
         <SidebarOption
           icon={'fa-solid fa-download'}
           title={t('navbar.sidebar.downloadCv')}
+          onClick={() => window.open(t('curriculum.link'))}
         />
       </MenuSidebar>
     </div>
@@ -140,7 +141,10 @@ function LanguageSwitch({ className = '' }: { className?: string }) {
 function CvButton() {
   const { t } = useTranslation();
   return (
-    <Button className={`${styles.cvButton}`} onClick={() => alert('clicked')}>
+    <Button
+      className={`${styles.cvButton}`}
+      onClick={() => window.open(t('curriculum.link'))}
+    >
       {t('navbar.downloadCv')}
     </Button>
   );

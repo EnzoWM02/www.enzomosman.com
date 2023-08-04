@@ -113,5 +113,8 @@ export default {
     },
     learnMore: 'Learn more',
     email: 'E-mail',
+    curriculum: {
+      link: 'https://drive.google.com/uc?id=17HTRvNyxdI8z79QyhCar8mJURNC2uvCT&export=download',
+    },
   },
 };

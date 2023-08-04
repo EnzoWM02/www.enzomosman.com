@@ -115,11 +115,14 @@ export default {
       copy:
         'Eu sou um desenvolvedor de software full stack que é apaixonado pela sua carreira, ama aprender novas tecnologias e conhecer novas pessoas.\n' +
         'Atualmente estou cursando engenharia de software na Univates, em Lajeado - RS.\n' +
-        'Minha stack favorita é Java + Typescript com ReactJS, mas estou sempre aberto para aprender novas tecnologias\n' +
+        'Minha stack favorita é Java + Typescript com ReactJS, mas estou sempre aberto para aprender novas tecnologias.\n' +
         'Se estiver interessado em meu trabalho ou quiser apenas trocar uma idéia, estou aberto para mensagens no meu Linkedin ou no meu e-mail.',
       email: 'enzowmosman@gmail.com',
     },
     learnMore: 'Saiba mais',
     email: 'E-mail',
+    curriculum: {
+      link: 'https://drive.google.com/uc?id=17HTRvNyxdI8z79QyhCar8mJURNC2uvCT&export=download',
+    },
   },
 };

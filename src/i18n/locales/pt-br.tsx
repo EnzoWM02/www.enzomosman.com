@@ -52,7 +52,7 @@ export default {
         portfolio: {
           title: 'Portfolio',
           description:
-            'O meu primeiro projeto publicado. Ele representa uma visão geral de tudo que eu posso oferecer como desenvolvedor, com meus projetos, habilidades e experiências a mostra.',
+            'O meu primeiro projeto publicado. Ele representa uma visão geral do que eu posso oferecer como desenvolvedor, com meus projetos, habilidades e experiências a mostra.',
         },
       },
       comingSoon: 'Mais projetos em breve...',

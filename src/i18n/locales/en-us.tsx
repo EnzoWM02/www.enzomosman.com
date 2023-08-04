@@ -51,7 +51,7 @@ export default {
         portfolio: {
           title: 'Portfolio',
           description:
-            'My first published project. It represents an overview of all I can offer as a developer. It contains my projects, skills and experiences.',
+            'My first published project. It represents an overview of what I can offer as a developer. It contains my projects, skills and experiences.',
         },
       },
       comingSoon: 'Coming soon...',
@@ -65,14 +65,15 @@ export default {
           date: 'October/2021 - June/2022',
           title: 'Technical Support',
           company: 'BIMachine',
-          description: '',
+          description:
+            'In this position I worked in an online customer service for a BI (Business Intelligence) application, using e-mail, chats, meetings and phone as communication methods with the customer. I evolved a lot in my relationship with other people and in empathy, as well as my communication trying to get a clear understanding from both parts. I also learned how a BI system works, understood business rules applied to an enterprise context and improved my SQL and MDX skills to work with data manipulation and ETL, also using databases like PostgreSQL, MySQL, OracleSQL and others.',
         },
         fullStackDevBimachine: {
           date: 'June/2022 - Now',
           title: 'Full Stack developer',
           company: 'BIMachine',
           description:
-            'In this position I worked with Java, JavaScript, ReactJS and PostgreSQL on a daily basis. My job was to make new features and fix bugs in a Business Intelligence web service application. Some big features I worked on were rewriting whole JSF interfaces to ReactJS interfaces, making a gradient color picker figma-like from scratch using JS and ReactJS and building new systems like Labs for new features to be tested. As it was my first job as a developer, I learned a lot on how to keep an application running, how to apply clean code practices in my code and how to work with a development team, with methodologies such as scrum and others.',
+            'In this position I worked with Java, Javascript, Typescript, ReactJS and PostgreSQL on a daily basis. My job was to make new features and fix bugs in a Business Intelligence web service application. Some big features I worked on were rewriting whole JSF interfaces to ReactJS interfaces, making a gradient color picker figma-like from scratch using JS and ReactJS and building new systems like Labs for new features to be tested. As it was my first job as a developer, I learned a lot on how to keep an application running, how to apply clean code practices in my code and how to work with a development team, with methodologies such as scrum and others.',
         },
       },
       formation: {

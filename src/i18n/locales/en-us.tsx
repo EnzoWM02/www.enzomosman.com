@@ -65,17 +65,14 @@ export default {
           date: 'October/2021 - June/2022',
           title: 'Technical Support',
           company: 'BIMachine',
-          description:
-            'In this position I worked with Java, JavaScript, ReactJS and PostgreSQL in a daily basis. My job was to make new features and fix bugs in a Business Inteligence web service application. Some big features I worked on were rewriting whole JSF interfaces to ReactJS interfaces, making a gradient color picker figma-like from scratch using JS and ReactJS and building new systems like a Labs for new features to be tested.\n' +
-            'As it was my first job as a developer, I learned a lot on how to keep an application running, how to apply clean code practices in my code and how to work with a development team, with methodologies such as scrum and others.',
+          description: '',
         },
         fullStackDevBimachine: {
           date: 'June/2022 - Now',
           title: 'Full Stack developer',
           company: 'BIMachine',
           description:
-            'In this position I worked with Java, JavaScript, ReactJS and PostgreSQL in a daily basis. My job was to make new features and fix bugs in a Business Inteligence web service application. Some big features I worked on were rewriting whole JSF interfaces to ReactJS interfaces, making a gradient color picker figma-like from scratch using JS and ReactJS and building new systems like a Labs for new features to be tested.\n' +
-            'As it was my first job as a developer, I learned a lot on how to keep an application running, how to apply clean code practices in my code and how to work with a development team, with methodologies such as scrum and others.',
+            'In this position I worked with Java, JavaScript, ReactJS and PostgreSQL on a daily basis. My job was to make new features and fix bugs in a Business Intelligence web service application. Some big features I worked on were rewriting whole JSF interfaces to ReactJS interfaces, making a gradient color picker figma-like from scratch using JS and ReactJS and building new systems like Labs for new features to be tested. As it was my first job as a developer, I learned a lot on how to keep an application running, how to apply clean code practices in my code and how to work with a development team, with methodologies such as scrum and others.',
         },
       },
       formation: {

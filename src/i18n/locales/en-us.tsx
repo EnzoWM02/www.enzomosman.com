@@ -39,10 +39,10 @@ export default {
         git: 'Git',
         docker: 'Docker',
         linux: 'Linux',
-        communication: 'Comunicação',
-        teamwork: 'Trabalho em equipe',
-        proactive: 'Proatividade',
-        creative: 'Criativo',
+        communication: 'Communication',
+        teamwork: 'Teamwork',
+        proactive: 'Proactivity',
+        creative: 'Creativity',
       },
     },
     projects: {
@@ -104,8 +104,8 @@ export default {
       title: 'About me',
       copy:
         "I'm a Full Stack Software Engineer which is passionate about it's job, loves learning new technologies and meeting new people.\n" +
-        "I'm currently doing a Bachelor's Degree for Software Engineer in University of Vale do Taquari (Univates).\n" +
-        "My favorite Stack to work with is Java + Javascript with ReactJS, but I'm open to learn any technology.\n" +
+        "</br>I'm currently doing a Bachelor's Degree for Software Engineer in University of Vale do Taquari (Univates).\n" +
+        "</br></br>My favorite Stack to work with is Java + Javascript with ReactJS, but I'm open to learn any technology.</br></br>\n" +
         "If you want to talk with me I'm open to messages or send me an e-mail",
       email: 'enzowmosman@gmail.com',
     },

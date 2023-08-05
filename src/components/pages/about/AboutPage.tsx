@@ -18,7 +18,7 @@ export default function AboutPage() {
         <div className={`${styles.pageContainer}`}>
           <RoundedImageShape />
           <motion.div variants={itemVariants} className={`${styles.textContainer}`}>
-            <span className={`${styles.copy}`}>{t('about.copy')}</span>
+            <span className={`${styles.copy}`} dangerouslySetInnerHTML={{__html: t('about.copy')}} />
             <div className={`${styles.email}`}>
               <i className="fa-solid fa-envelope"/>
               <span>{t('about.email')}</span>

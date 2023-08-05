@@ -1,8 +1,8 @@
 import { TimelineSectionData } from 'src/components/ui/timeline/Timeline.tsx';
 
 enum ProfessionalExperiences {
-  TechnicalSupportBimachine = 'technicalSupportBimachine',
   FullStackDevBimachine = 'fullStackDevBimachine',
+  TechnicalSupportBimachine = 'technicalSupportBimachine',
 }
 
 export const ProfessionalExperiencesList: TimelineSectionData[] = Object.values(
@@ -17,9 +17,9 @@ export const ProfessionalExperiencesList: TimelineSectionData[] = Object.values(
 });
 
 enum FormationExperiences {
-  BomJesus = 'bomJesus',
-  Fisk = 'fisk',
   SoftwareEngineer = 'softwareEngineer',
+  Fisk = 'fisk',
+  BomJesus = 'bomJesus',
 }
 
 export const FormationExperiencesList: TimelineSectionData[] = Object.values(

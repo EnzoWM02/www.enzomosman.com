@@ -39,10 +39,10 @@ export default {
         git: 'Git',
         docker: 'Docker',
         linux: 'Linux',
-        communication: 'Comunicação',
-        teamwork: 'Trabalho em equipe',
-        proactive: 'Proatividade',
-        creative: 'Criativo',
+        communication: 'Communication',
+        teamwork: 'Teamwork',
+        proactive: 'Proactivity',
+        creative: 'Creativity',
       },
     },
     projects: {
@@ -51,7 +51,7 @@ export default {
         portfolio: {
           title: 'Portfolio',
           description:
-            'My first published project. It represents an overview of all I can offer as a developer. It contains my projects, skills and experiences.',
+            'My first published project. It represents an overview of what I can offer as a developer. It contains my projects, skills and experiences.',
         },
       },
       comingSoon: 'Coming soon...',
@@ -66,16 +66,14 @@ export default {
           title: 'Technical Support',
           company: 'BIMachine',
           description:
-            'In this position I worked with Java, JavaScript, ReactJS and PostgreSQL in a daily basis. My job was to make new features and fix bugs in a Business Inteligence web service application. Some big features I worked on were rewriting whole JSF interfaces to ReactJS interfaces, making a gradient color picker figma-like from scratch using JS and ReactJS and building new systems like a Labs for new features to be tested.\n' +
-            'As it was my first job as a developer, I learned a lot on how to keep an application running, how to apply clean code practices in my code and how to work with a development team, with methodologies such as scrum and others.',
+            'In this position I worked in an online customer service for a BI (Business Intelligence) application, using e-mail, chats, meetings and phone as communication methods with the customer. I evolved a lot in my relationship with other people and in empathy, as well as my communication trying to get a clear understanding from both parts. I also learned how a BI system works, understood business rules applied to an enterprise context and improved my SQL and MDX skills to work with data manipulation and ETL, also using databases like PostgreSQL, MySQL, OracleSQL and others.',
         },
         fullStackDevBimachine: {
           date: 'June/2022 - Now',
           title: 'Full Stack developer',
           company: 'BIMachine',
           description:
-            'In this position I worked with Java, JavaScript, ReactJS and PostgreSQL in a daily basis. My job was to make new features and fix bugs in a Business Inteligence web service application. Some big features I worked on were rewriting whole JSF interfaces to ReactJS interfaces, making a gradient color picker figma-like from scratch using JS and ReactJS and building new systems like a Labs for new features to be tested.\n' +
-            'As it was my first job as a developer, I learned a lot on how to keep an application running, how to apply clean code practices in my code and how to work with a development team, with methodologies such as scrum and others.',
+            'In this position I worked with Java, Javascript, Typescript, ReactJS and PostgreSQL on a daily basis. My job was to make new features and fix bugs in a Business Intelligence web service application. Some big features I worked on were rewriting whole JSF interfaces to ReactJS interfaces, making a gradient color picker figma-like from scratch using JS and ReactJS and building new systems like Labs for new features to be tested. As it was my first job as a developer, I learned a lot on how to keep an application running, how to apply clean code practices in my code and how to work with a development team, with methodologies such as scrum and others.',
         },
       },
       formation: {
@@ -106,8 +104,8 @@ export default {
       title: 'About me',
       copy:
         "I'm a Full Stack Software Engineer which is passionate about it's job, loves learning new technologies and meeting new people.\n" +
-        "I'm currently doing a Bachelor's Degree for Software Engineer in University of Vale do Taquari (Univates).\n" +
-        "My favorite Stack to work with is Java + Javascript with ReactJS, but I'm open to learn any technology.\n" +
+        "</br>I'm currently doing a Bachelor's Degree for Software Engineer in University of Vale do Taquari (Univates).\n" +
+        "</br></br>My favorite Stack to work with is Java + Javascript with ReactJS, but I'm open to learn any technology.</br></br>\n" +
         "If you want to talk with me I'm open to messages or send me an e-mail",
       email: 'enzowmosman@gmail.com',
     },

@@ -112,7 +112,7 @@ export default {
     learnMore: 'Learn more',
     email: 'E-mail',
     curriculum: {
-      link: 'https://drive.google.com/uc?id=17HTRvNyxdI8z79QyhCar8mJURNC2uvCT&export=download',
+      link: 'https://drive.google.com/uc?id=10QIaGIuCMkZ6qQ46XG_FI_SIahq1NZhb&export=download',
     },
   },
 };

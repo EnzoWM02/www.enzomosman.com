@@ -1,16 +1,16 @@
-## Enzo's Portfolio
+# Enzo's Portfolio
 
-:star: This project is a portfolio website made by me to show off my projects, skills and experiences.
-
-The idea is to make easier for people who wants to know me better and expose what I'm capable of
+:star: This project is a portfolio website made by me to show off my projects, skills and experiences. The main idea is
+to make easier for people who wants to connect with me and expose what I'm capable of
 
 :link: [Official Link](https://www.enzomosman.com)
-
+<br/>
+<br/>
 If you have any questions, opportunities, or just want to talk about common interests, feel free to e-mail me
 
 :envelope: enzowmosman@gmail.com
 
-# Technologies
+## Technologies
 
 This project was made using
 

@@ -6,6 +6,7 @@ to make easier for people who wants to connect with me and expose what I'm capab
 :link: [Official Link](https://www.enzomosman.com)
 <br/>
 <br/>
+<br/>
 If you have any questions, opportunities, or just want to talk about common interests, feel free to e-mail me
 
 :envelope: enzowmosman@gmail.com

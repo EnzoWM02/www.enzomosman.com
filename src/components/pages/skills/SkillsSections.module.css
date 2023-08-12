@@ -79,11 +79,6 @@
     max-height: 80px;
 }
 
-.cardWrapper :global(img):hover {
-    transform: scale(1.15);
-    filter: drop-shadow(0 0 15px rgba(0, 0, 0, 0.5));
-}
-
 .skillCardTitle {
     color: white;
     font-size: 18px;

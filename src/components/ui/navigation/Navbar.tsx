@@ -43,7 +43,7 @@ function MobileNavbar() {
           if (layoutContext.isLowRes && route.title === 'about.title') return;
           return (
             <Link key={`linkroute_${idx}`} to={route.path}>
-              <div className={`${styles.iconTitleContainer}`}>
+              <div className={`${styles.iconTitleContainer} ${route.path === window.location.pathname && styles.selected}`}>
                 <i className={`${route.icon}`} />
                 <span className={`${styles.iconTitle}`}>{t(route.title)}</span>
               </div>
@@ -120,7 +120,7 @@ function LanguageSwitch({ className = '' }: { className?: string }) {
         <span
           className={`${
             selectedLanguage !== Languages.Portuguese && styles.disabled
-          }`}
+          } ${styles.languageSpan}`}
           onClick={() => changeLang(Languages.Portuguese)}
         >
           {t('navbar.portuguese')}
@@ -128,7 +128,7 @@ function LanguageSwitch({ className = '' }: { className?: string }) {
         <span
           className={`${
             selectedLanguage !== Languages.English && styles.disabled
-          }`}
+          } ${styles.languageSpan}`}
           onClick={() => changeLang(Languages.English)}
         >
           {t('navbar.english')}

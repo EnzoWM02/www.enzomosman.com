@@ -21,7 +21,7 @@ export default function ProjectCard({ project }: { project: IProject }) {
         console.error('Error when fetching image for ', project.name, e);
       }
     })();
-  }, []);
+  }, [project.miniatureImage, project.name]);
 
   return (
     <div className={`${styles.cardWrapper}`}>
@@ -29,7 +29,7 @@ export default function ProjectCard({ project }: { project: IProject }) {
         <img src={image} alt={`Image for ${project.name}`} />
         <div className={`${styles.skillsContainer}`}>
           {project.skills.map((skill, idx) => {
-            return <SkillIcon imageName={skill.name} />;
+            return <SkillIcon imageName={skill.name} key={idx} />;
           })}
         </div>
       </div>

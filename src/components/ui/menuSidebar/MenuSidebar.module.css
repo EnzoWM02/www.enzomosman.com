@@ -60,6 +60,10 @@
     color: white;
 }
 
+.optionWrapper:focus, .optionWrapper:active {
+    -webkit-tap-highlight-color: transparent;
+}
+
 .childrenContainer {
     display: flex;
     flex-direction: column;
@@ -80,4 +84,8 @@
 .footerContainer {
     position: fixed;
     bottom: 20px;
+}
+
+.selected {
+    text-shadow: 0 0 12px white;
 }

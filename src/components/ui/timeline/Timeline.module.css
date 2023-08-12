@@ -39,7 +39,7 @@
 
 .timelineSectionContainer {
     display: grid;
-    grid-template-columns: 45% 5% 45%;
+    grid-template-columns: 42% 5% 42%;
     gap: 15px;
 }
 

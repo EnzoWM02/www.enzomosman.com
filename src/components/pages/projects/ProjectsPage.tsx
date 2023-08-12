@@ -21,8 +21,8 @@ export default function ProjectsPage() {
       <motion.div className={`${styles.projectCardsContainer}`}>
         {Projects.map((project, idx) => {
           return (
-            <motion.div variants={itemVariants}>
-              <ProjectCard project={project} key={idx} />
+            <motion.div variants={itemVariants}  key={idx}>
+              <ProjectCard project={project} />
             </motion.div>
           );
         })}

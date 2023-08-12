@@ -134,6 +134,12 @@
   align-items: center;
 }
 
+.mobileNavbarIconsContainer :global(a):active,
+.mobileNavbarIconsContainer :global(a):focus,
+.iconTitleContainer:active, .iconTitleContainer:focus {
+  -webkit-tap-highlight-color: transparent;
+}
+
 .iconTitleContainer {
   display: grid;
   grid-template-rows: 20px 1px;
@@ -143,7 +149,7 @@
   cursor: pointer;
 }
 
-.iconTitleContainer:hover {
+.iconTitleContainer.selected {
   text-shadow: 0 0 12px white;
 }
 

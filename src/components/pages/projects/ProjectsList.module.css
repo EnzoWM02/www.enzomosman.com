@@ -16,3 +16,7 @@
     margin-top: 32px;
     width: 50%;
 }
+
+:global(.mobile) .ctaButton {
+    width: 100%;
+}

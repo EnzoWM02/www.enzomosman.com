@@ -10,9 +10,7 @@ interface IMenuSidebar {
     | React.ReactElement<ISidebarOption>[]
     | React.ReactElement<ISidebarOption>;
   open: boolean;
-
-  onClose(): () => void;
-
+  onClose: () => void;
   header?: React.ReactElement;
   footer?: React.ReactElement;
 }
@@ -48,7 +46,9 @@ export default function MenuSidebar({
       },
     }),
     closed: {
-      clipPath: `circle(0px at 100% ${layoutContext.mobileBreakpoint ? 100 : 0}%)`,
+      clipPath: `circle(0px at 100% ${
+        layoutContext.mobileBreakpoint ? 100 : 0
+      }%)`,
       transition: {
         type: 'spring',
         stiffness: 280,
@@ -105,7 +105,12 @@ export function SidebarOption({ icon, title, onClick, to }: ISidebarOption) {
 
   return (
     <React.Fragment>
-      <div className={`${styles.optionWrapper} ${!!to && to === window.location.pathname && styles.selected }`} onClick={handleOnClick}>
+      <div
+        className={`${styles.optionWrapper} ${
+          !!to && to === window.location.pathname && styles.selected
+        }`}
+        onClick={handleOnClick}
+      >
         <i className={`${icon}`} />
         <span>{title}</span>
       </div>

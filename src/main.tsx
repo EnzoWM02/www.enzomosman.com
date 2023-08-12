@@ -1,4 +1,6 @@
 import ReactDOM from 'react-dom/client';
+import { Analytics } from '@vercel/analytics/react';
+
 import 'src/index.css';
 import 'src/utils/Vars.css';
 import { BrowserRouter, Route, Routes, useLocation } from 'react-router-dom';
@@ -33,6 +35,7 @@ const AppRoot = () => {
 const RouterRoot = () => {
   return (
     <BrowserRouter>
+      <Analytics />
       <AppRoot />
     </BrowserRouter>
   );

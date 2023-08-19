@@ -1,7 +1,7 @@
 import styles from './AboutPage.module.css';
 
 import DefaultTabLayout from 'src/components/ui/navigation/DefaultTabLayout.tsx';
-import photo from 'src/assets/temp.png';
+import photo from 'src/assets/sitbw.jpg';
 import { useTranslation } from 'react-i18next';
 import SocialButtons from 'src/components/ui/SocialButtons.tsx';
 import { motion } from 'framer-motion';

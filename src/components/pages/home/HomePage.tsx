@@ -4,7 +4,7 @@ import 'src/utils/Common.css';
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 
-import photo from 'src/assets/temp.png';
+import photo from 'src/assets/squareblueksy.jpg';
 
 import { motion } from 'framer-motion';
 import { itemVariants } from 'src/utils/Animations.tsx';

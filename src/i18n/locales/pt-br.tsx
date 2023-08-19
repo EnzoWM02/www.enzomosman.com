@@ -13,12 +13,12 @@ export default {
       title: 'Home',
       title1: 'Olá, eu sou o Enzo',
       title2:
-        'Eu sou um desenvolvedor Full Stack que soluciona problemas usando tecnologia',
-      desc: 'Quase 2 anos de experiência profissional trabalhando com diversas tecnologias para entregar qualidade e resultados. Eu sou uma pessoa animada, que aprende rápido e tem vontade de crescer.',
+        'Um desenvolvedor Full Stack que soluciona problemas usando tecnologia',
+      desc: 'Quase 2 anos de experiência profissional trabalhando com diversas tecnologias para entregar qualidade e resultados. Sou uma pessoa animada, que aprende rápido e tem vontade de crescer.',
     },
     skills: {
       title: 'Habilidades',
-      desc: 'Eu estudo programação desde os meus 12 anos, aqui estão algumas das minhas principais habilidades',
+      desc: 'Apaixonado por tecnologia desde pequeno, aqui estão algumas das minhas principais habilidades',
       sections: {
         frontend: 'Frontend',
         backend: 'Backend',
@@ -67,23 +67,14 @@ export default {
           company: 'BIMachine',
           title: 'Técnico de Suporte',
           description:
-            'Nessa posição eu trabalhei como um atendente de suporte online de uma plataforma de BI (Business Inteligence) usando e-mail, chats,\n' +
-            'meetings e telefone como forma de comunicação com o cliente. Eu evoluí muito na minha relação com as outras pessoas e na empatia, além\n' +
-            'da minha comunicação, visando clarear o entendimento em ambas as partes. Eu também aprendi como um sistema de BI funciona, entendi\n' +
-            'regras de negócio aplicado ao contexto de empresas, e melhorei minhas habilidades em SQL e MDX para trabalhar com manipulação de\n' +
-            'dados, também usando bancos de dados como PostgreSQL, MySQL, OracleSQL e outros.',
+            '<p>Nessa posição, desempenhei o papel de atendente de suporte online em uma plataforma de Business Intelligence (BI), onde utilizei e-mail, chats, reuniões e telefone como canais de comunicação direta com os clientes. Durante esse período, experimentei um notável crescimento na minha capacidade de interagir com as pessoas e cultivar empatia. Além disso, aprimorei significativamente minhas habilidades de comunicação, buscando sempre esclarecer entendimentos mútuos.</p><br/><p>Ao longo dessa experiência, adquiri um profundo conhecimento sobre o funcionamento de sistemas de BI e compreendi como as regras de negócios se aplicam ao contexto empresarial. Minhas competências em SQL e MDX também foram substancialmente aprimoradas, permitindo-me realizar manipulação de dados com destreza. Essas habilidades foram aplicadas com sucesso em diversos bancos de dados, incluindo PostgreSQL, MySQL, OracleSQL, entre outros.</p>',
         },
         fullStackDevBimachine: {
           date: 'Junho/2022 - Hoje',
           company: 'BIMachine',
           title: 'Desenvolvedor Full Stack',
           description:
-            'Nessa posição eu trabalhei com Java, Javascript, ReactJS e PostgreSQL diariamente. Meu trabalho era fazer novas funcionalidades e resolver\n' +
-            'bugs em uma plataforma web de BI (Business Inteligence). Algumas das maiores funcionalidades que eu trabalhei foram reescrever interfaces\n' +
-            'inteiras de JSF para ReactJS, criação de um ColorPicker do zero usando JS e ReactJS e criação de novos sistemas inteiros, como uma\n' +
-            'laboratório de novas funcionalidades para os clientes testarem.\n' +
-            'Como era meu primeiro trabalho como desenvolvedor, eu aprendi muito sobre como manter uma aplicação rodando, como aplicar práticas\n' +
-            'de clean code no meu código e como trabalhar em conjunto com um time de desenvolvedores, com metodologias como SCRUM e outros.',
+            '<h2>Trabalhei no fronte de desenvolvimento atuando com Java, Javascript, ReactJS, PostgreSQL e outros.</h2><p>Desenvolvi novas funcionalidades e resolvi bugs, incluindo críticos, em uma plataforma web de BI (Business Inteligence).</p><br/><p>Algumas das maiores funcionalidades desenvolvidas foram:<ul><li>Reescrita de interfaces em JSF para ReactJS, recriando todo o back-end necessário;</li><li>Criação de novos sistemas, como um laboratório de novas funcionalidades para teste pelos usuários;</li><li>Criação de um seletor de cores com gradiente, utilizando ReactJS;</li><li>Refatoração de microserviços;</li><li>Criação e melhorias de gráficos e objetos analíticos.</li></ul></p><p>Minha jornada nessa experiência me proporcionou um profundo entendimento sobre a manutenção contínua de aplicações, a aplicação de princípios de Clean Code em meu código e a colaboração eficaz em equipes de desenvolvimento, seguindo metodologias como o SCRUM, entre outras.</p>',
         },
       },
       formation: {

@@ -12,12 +12,12 @@ export default {
     home: {
       title: 'Home',
       title1: "Hello, I'm Enzo",
-      title2: "I'm a Full Stack developer who solves problems with technology",
+      title2: 'A Full Stack developer who solves problems with technology',
       desc: "Almost two years of professional experience working with several technologies to bring quality and results. I'm a passionate person who learns fast and is eager to grow",
     },
     skills: {
       title: 'Skills',
-      desc: "I've been studying programming since I was 12, here are some of my most relevant skills",
+      desc: 'Passionate about technology since I was young, here are some of my main skills.',
       sections: {
         frontend: 'Frontend',
         backend: 'Backend',
@@ -66,14 +66,14 @@ export default {
           title: 'Technical Support',
           company: 'BIMachine',
           description:
-            'In this position I worked in an online customer service for a BI (Business Intelligence) application, using e-mail, chats, meetings and phone as communication methods with the customer. I evolved a lot in my relationship with other people and in empathy, as well as my communication trying to get a clear understanding from both parts. I also learned how a BI system works, understood business rules applied to an enterprise context and improved my SQL and MDX skills to work with data manipulation and ETL, also using databases like PostgreSQL, MySQL, OracleSQL and others.',
+            '<p>In this role, I served as an online support attendant for a Business Intelligence (BI) platform, utilizing email, chats, meetings, and phone communication to interact with clients. Throughout this position, I witnessed significant personal growth in my ability to connect with others and foster empathy. Additionally, I honed my communication skills to ensure clear understanding on both ends.</p><br/><p>I acquired a profound understanding of BI system operations and gained insights into the application of business rules within corporate contexts. My proficiency in SQL and MDX also were substantially improved, enabling me to adeptly manipulate data. These skills were effectively put to use across a range of databases, including PostgreSQL, MySQL, OracleSQL, and others.</p>',
         },
         fullStackDevBimachine: {
           date: 'June/2022 - Now',
           title: 'Full Stack developer',
           company: 'BIMachine',
           description:
-            'In this position I worked with Java, Javascript, Typescript, ReactJS and PostgreSQL on a daily basis. My job was to make new features and fix bugs in a Business Intelligence web service application. Some big features I worked on were rewriting whole JSF interfaces to ReactJS interfaces, making a gradient color picker figma-like from scratch using JS and ReactJS and building new systems like Labs for new features to be tested. As it was my first job as a developer, I learned a lot on how to keep an application running, how to apply clean code practices in my code and how to work with a development team, with methodologies such as scrum and others.',
+            '<h2>Worked on the development area using Java, Javascript, ReactJS, PostgreSQL and others.</h2><p>I developed new features and fixed bugs, including critical ones, in a Business Intelligence web platform.</p><br/><p>Some of the major features I developed were:<ul><li>Rewrote JSF interfaces to ReactJS, refactoring the back-end as needed;</li><li>Creating whole new systems, like a labs for new features where users could test then.</li><li>Created a color picker with gradient from scratch, using ReactJS;</li><li>Refactored microservices;</li><li>Created and improved graphics and analytical objects.</li></ul></p><p>Throughout this journey, I gained extensive insights into application sustainability, the implementation of Clean Code principles, and effective collaboration within a development team, employing methodologies such as SCRUM and others.</p>',
         },
       },
       formation: {

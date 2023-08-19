@@ -1,3 +1,4 @@
+import { useLayoutContext } from 'src/hooks/useLayoutContext';
 import styles from './Timeline.module.css';
 import { useTranslation } from 'react-i18next';
 
@@ -6,6 +7,7 @@ export type TimelineSectionData = {
   company: string;
   title: string;
   description: string;
+  isFavorite: boolean;
 };
 
 interface ITimeline {
@@ -14,6 +16,8 @@ interface ITimeline {
 }
 
 export default function Timeline({ className = '', items }: ITimeline) {
+  const { mobileBreakpoint } = useLayoutContext();
+
   return (
     <div className={`${styles.timeLineWrapper} ${className} `}>
       <div className={`${styles.itemsContainer}`}>
@@ -21,7 +25,7 @@ export default function Timeline({ className = '', items }: ITimeline) {
           return (
             <TimelineSection
               item={item}
-              left={!!(idx % 2)}
+              left={mobileBreakpoint ? false : !!(idx % 2)}
               last={items.length - 1 === idx}
               key={idx}
             />
@@ -74,8 +78,14 @@ function DataSection({ item, className = '' }: IDataSection) {
   const { t } = useTranslation();
   return (
     <div className={`${className} ${styles.dataSectionContainer}`}>
-      <span className={`${styles.dataTitle}`}>{t(item.title)}</span>
-      <span className={`${styles.dataDesc}`}>{t(item.description)}</span>
+      <span className={`${styles.dataTitle}`}>
+        {item.isFavorite && <span>⭐️ </span>}
+        {t(item.title)}
+      </span>
+      <span
+        className={`${styles.dataDesc}`}
+        dangerouslySetInnerHTML={{ __html: t(item.description) }}
+      />
     </div>
   );
 }

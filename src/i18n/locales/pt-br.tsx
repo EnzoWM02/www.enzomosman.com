@@ -113,7 +113,7 @@ export default {
     learnMore: 'Saiba mais',
     email: 'E-mail',
     curriculum: {
-      link: 'https://drive.google.com/uc?id=17HTRvNyxdI8z79QyhCar8mJURNC2uvCT&export=download',
+      link: 'https://drive.google.com/uc?id=1qtHbc-g4IaPtsOrQ-WdJFTz_XHiftUcW&export=download',
     },
   },
 };

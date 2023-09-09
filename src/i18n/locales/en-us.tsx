@@ -69,7 +69,7 @@ export default {
             '<p>In this role, I served as an online support attendant for a Business Intelligence (BI) platform, utilizing email, chats, meetings, and phone communication to interact with clients. Throughout this position, I witnessed significant personal growth in my ability to connect with others and foster empathy. Additionally, I honed my communication skills to ensure clear understanding on both ends.</p><br/><p>I acquired a profound understanding of BI system operations and gained insights into the application of business rules within corporate contexts. My proficiency in SQL and MDX also were substantially improved, enabling me to adeptly manipulate data. These skills were effectively put to use across a range of databases, including PostgreSQL, MySQL, OracleSQL, and others.</p>',
         },
         fullStackDevBimachine: {
-          date: 'June/2022 - Now',
+          date: 'June/2022 - September/2023',
           title: 'Full Stack developer',
           company: 'BIMachine',
           description:
@@ -112,7 +112,7 @@ export default {
     learnMore: 'Learn more',
     email: 'E-mail',
     curriculum: {
-      link: 'https://drive.google.com/uc?id=1XEP8EelgCYimUc2P2yez3Dz6bOxnOipA&export=download',
+      link: 'https://drive.google.com/uc?id=1LK8VpITH1yhdIimf8r8g5RAZPVazLC8s&export=download',
     },
   },
 };

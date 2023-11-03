@@ -30,6 +30,10 @@ export interface ISkills {
   Teamwork: ISkill;
   Proactive: ISkill;
   Creative: ISkill;
+  Vuejs: ISkill;
+  Php: ISkill;
+  Laravel: ISkill;
+  Mysql: ISkill;
 }
 
 export const Skills: ISkills = {
@@ -122,5 +126,25 @@ export const Skills: ISkills = {
     name: 'creative',
     title: 'skills.list.creative',
     section: Section.SoftSkills,
+  },
+  Vuejs: {
+    name: 'vuejs',
+    title: 'skills.list.vuejs',
+    section: Section.Frontend,
+  },
+  Php: {
+    name: 'php',
+    title: 'skills.list.php',
+    section: Section.Backend,
+  },
+  Laravel: {
+    name: 'laravel',
+    title: 'skills.list.laravel',
+    section: Section.Backend,
+  },
+  Mysql: {
+    name: 'mysql',
+    title: 'skills.list.mysql',
+    section: Section.Backend,
   },
 };

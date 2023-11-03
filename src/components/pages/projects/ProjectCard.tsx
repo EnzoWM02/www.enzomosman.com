@@ -26,7 +26,7 @@ export default function ProjectCard({ project }: { project: IProject }) {
   return (
     <div className={`${styles.cardWrapper}`}>
       <div className={`${styles.imageSkillsContainer}`}>
-        <img src={image} alt={`Image for ${project.name}`} />
+        <img className={`${styles.projectImage}`} src={image} alt={`Image for ${project.name}`} />
         <div className={`${styles.skillsContainer}`}>
           {project.skills.map((skill, idx) => {
             return <SkillIcon imageName={skill.name} key={idx} />;

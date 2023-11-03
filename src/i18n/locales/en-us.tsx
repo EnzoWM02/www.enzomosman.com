@@ -43,6 +43,10 @@ export default {
         teamwork: 'Teamwork',
         proactive: 'Proactivity',
         creative: 'Creativity',
+        vuejs: 'VueJS',
+        php: 'Php',
+        laravel: 'Laravel',
+        mysql: 'MySQL',
       },
     },
     projects: {
@@ -52,6 +56,11 @@ export default {
           title: 'Portfolio',
           description:
             'My first published project. It represents an overview of what I can offer as a developer. It contains my projects, skills and experiences.',
+        },
+        himalayas: {
+          title: 'Himalayas',
+          description:
+            'A page that lists open jobs made with VueJS, following a model available on Dribble.',
         },
       },
       comingSoon: 'Coming soon...',
@@ -70,10 +79,17 @@ export default {
         },
         fullStackDevBimachine: {
           date: 'June/2022 - September/2023',
-          title: 'Full Stack developer',
+          title: 'Full Stack Developer',
           company: 'BIMachine',
           description:
             '<h2>Worked on the development area using Java, Javascript, ReactJS, PostgreSQL and others.</h2><p>I developed new features and fixed bugs, including critical ones, in a Business Intelligence web platform.</p><br/><p>Some of the major features I developed were:<ul><li>Rewrote JSF interfaces to ReactJS, refactoring the back-end as needed;</li><li>Creating whole new systems, like a labs for new features where users could test then.</li><li>Created a color picker with gradient from scratch, using ReactJS;</li><li>Refactored microservices;</li><li>Created and improved graphics and analytical objects.</li></ul></p><p>Throughout this journey, I gained extensive insights into application sustainability, the implementation of Clean Code principles, and effective collaboration within a development team, employing methodologies such as SCRUM and others.</p>',
+        },
+        juniorDeveloperClinicaExperts: {
+          date: 'October/2023 - Today',
+          company: 'Clinica Experts',
+          title: 'Junior Full Stack Developer 3',
+          description:
+            '<p>Worked on the development of a web platform used to manage beauty clinics. The main technologies used were PHP, Laravel, MariaDB and VueJS.</p>',
         },
       },
       formation: {

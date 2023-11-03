@@ -116,3 +116,7 @@
   font-size: 12px;
   font-style: italic;
 }
+
+.left ul {
+  text-align: left;
+}

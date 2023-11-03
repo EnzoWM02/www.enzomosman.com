@@ -44,6 +44,10 @@ export default {
         teamwork: 'Trabalho em equipe',
         proactive: 'Proatividade',
         creative: 'Criativo',
+        vuejs: 'VueJS',
+        php: 'Php',
+        laravel: 'Laravel',
+        mysql: 'MySQL',
       },
     },
     projects: {
@@ -53,6 +57,11 @@ export default {
           title: 'Portfolio',
           description:
             'O meu primeiro projeto publicado. Ele representa uma visão geral do que eu posso oferecer como desenvolvedor, com meus projetos, habilidades e experiências a mostra.',
+        },
+        himalayas: {
+          title: 'Himalayas',
+          description:
+            'Uma página que lista de vagas em aberto feita em VueJS, seguindo um protótipo fornecido no Dribble.',
         },
       },
       comingSoon: 'Mais projetos em breve...',
@@ -75,6 +84,13 @@ export default {
           title: 'Desenvolvedor Full Stack',
           description:
             '<h2>Trabalhei no fronte de desenvolvimento atuando com Java, Javascript, ReactJS, PostgreSQL e outros.</h2><p>Desenvolvi novas funcionalidades e resolvi bugs, incluindo críticos, em uma plataforma web de BI (Business Inteligence).</p><br/><p>Algumas das maiores funcionalidades desenvolvidas foram:<ul><li>Reescrita de interfaces em JSF para ReactJS, recriando todo o back-end necessário;</li><li>Criação de novos sistemas, como um laboratório de novas funcionalidades para teste pelos usuários;</li><li>Criação de um seletor de cores com gradiente, utilizando ReactJS;</li><li>Refatoração de microserviços;</li><li>Criação e melhorias de gráficos e objetos analíticos.</li></ul></p><p>Minha jornada nessa experiência me proporcionou um profundo entendimento sobre a manutenção contínua de aplicações, a aplicação de princípios de Clean Code em meu código e a colaboração eficaz em equipes de desenvolvimento, seguindo metodologias como o SCRUM, entre outras.</p>',
+        },
+        juniorDeveloperClinicaExperts: {
+          date: 'Outubro/2023 - Hoje',
+          company: 'Clinica Experts',
+          title: 'Desenvolvedor Full Stack Junior 3',
+          description:
+            '<p>Trabalhei no desenvolvimento e correções de uma plataforma voltada para gerência de clinicas de estética usando PHP, Laravel, VueJS e MariaDB.</p>',
         },
       },
       formation: {

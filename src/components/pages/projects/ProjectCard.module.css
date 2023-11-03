@@ -1,54 +1,55 @@
 .cardWrapper {
-    border-radius: 16px;
-    background: rgba(68, 60, 104, 0.16);
-    box-shadow: 0 1px 3px var(--soft-shadow-purple);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-    padding-bottom: 28px;
+  border-radius: 16px;
+  background: rgba(68, 60, 104, 0.16);
+  box-shadow: 0 1px 3px var(--soft-shadow-purple);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  padding-bottom: 28px;
 }
 
 :global(.lowRes) .cardWrapper {
-    width: 90vw;
+  width: 90vw;
 }
 
 .imageSkillsContainer {
-    width: 100%;
-    overflow: hidden;
-    display: grid;
-    grid-template-columns: 85% 15%;
+  width: 100%;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 85% 15%;
 }
 
-.imageSkillsContainer :global(img) {
-    max-width: 100%;
+.projectImage {
+  border-radius: 16px 0 0 0;
+  width: 100%;
 }
 
 .skillsContainer {
-    width: 100%;
-    display: grid;
-    grid-template-rows: repeat(4, 1fr);
-    gap: 8px;
-    justify-items: center;
+  width: 100%;
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  gap: 8px;
+  justify-items: center;
 }
 
 .skillsContainer :global(img) {
-    max-width: 60%;
+  max-width: 60%;
 }
 
 .textContainer {
-    width: calc(85% - 32px);
-    display: flex;
-    flex-direction: column;
-    padding: 24px 0 0 32px;
-    gap: 12px;
+  width: calc(85% - 32px);
+  display: flex;
+  flex-direction: column;
+  padding: 24px 0 0 32px;
+  gap: 12px;
 }
 
 .title {
-    font-size: 36px;
-    color: white;
+  font-size: 36px;
+  color: white;
 }
 
 .desc {
-    font-size: 16px;
-    text-align: justify;
-    color: rgba(255, 255, 255, 0.75);
+  font-size: 16px;
+  text-align: justify;
+  color: rgba(255, 255, 255, 0.75);
 }

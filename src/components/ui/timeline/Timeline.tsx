@@ -36,13 +36,16 @@ export default function Timeline({ className = '', items }: ITimeline) {
   );
 }
 
-interface IDataSection {
+interface IDateSection {
   className?: string;
   item: TimelineSectionData;
 }
 
-interface ITimelineSection extends IDataSection {
+interface IDataSection extends IDateSection {
   left: boolean;
+}
+
+interface ITimelineSection extends IDataSection {
   last: boolean;
 }
 
@@ -53,18 +56,18 @@ function TimelineSection({ item, left, last }: ITimelineSection) {
         left ? styles.left : styles.right
       } ${last && styles.last}`}
     >
-      {left ? <DataSection item={item} /> : <DateSection item={item} />}
+      {left ? <DataSection item={item} left={left} /> : <DateSection item={item} />}
       <div className={`${styles.lineContainer}`}>
         <div className={`${styles.ball}`} />
         <div className={`${styles.line}`} />
         {last && <div className={`${styles.ball}`} />}
       </div>
-      {!left ? <DataSection item={item} /> : <DateSection item={item} />}
+      {!left ? <DataSection item={item} left={left} /> : <DateSection item={item} />}
     </div>
   );
 }
 
-function DateSection({ item, className = '' }: IDataSection) {
+function DateSection({ item, className = '' }: IDateSection) {
   const { t } = useTranslation();
   return (
     <div className={`${className} ${styles.dateSectionContainer}`}>
@@ -74,7 +77,7 @@ function DateSection({ item, className = '' }: IDataSection) {
   );
 }
 
-function DataSection({ item, className = '' }: IDataSection) {
+function DataSection({ item, className = '', left }: IDataSection) {
   const { t } = useTranslation();
   return (
     <div className={`${className} ${styles.dataSectionContainer}`}>
@@ -83,7 +86,7 @@ function DataSection({ item, className = '' }: IDataSection) {
         {t(item.title)}
       </span>
       <span
-        className={`${styles.dataDesc}`}
+        className={`${styles.dataDesc} ${left ?? 'left'}`}
         dangerouslySetInnerHTML={{ __html: t(item.description) }}
       />
     </div>

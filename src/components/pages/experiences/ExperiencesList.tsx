@@ -1,11 +1,13 @@
 import { TimelineSectionData } from 'src/components/ui/timeline/Timeline.tsx';
 
 enum ProfessionalExperiences {
+  JuniorDeveloperClinicaExperts = 'juniorDeveloperClinicaExperts',
   FullStackDevBimachine = 'fullStackDevBimachine',
   TechnicalSupportBimachine = 'technicalSupportBimachine',
 }
 
 enum FavoriteProfessionalExperiences {
+  JuniorDeveloperClinicaExperts = 'juniorDeveloperClinicaExperts',
   FullStackDevBimachine = 'fullStackDevBimachine',
 }
 

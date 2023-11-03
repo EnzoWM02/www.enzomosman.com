@@ -1,10 +1,8 @@
-import styles from './ProjectsList.module.css';
-
 import React from 'react';
 
 import { ISkill, Skills } from 'src/components/pages/skills/SkillsList.tsx';
-import { Translation } from 'react-i18next';
-import Button from 'src/components/ui/Button.tsx';
+import CtaButton from 'src/components/ui/ctaButton/CtaButton';
+
 
 export interface IProject {
   name: string;
@@ -24,20 +22,15 @@ export const Projects: IProject[] = [
     miniatureImage: 'miniature',
     link: 'https://github.com/EnzoWM02/enzo-portfolio',
     skills: [Skills.Reactjs, Skills.Typescript, Skills.Html, Skills.Css],
-    ctaButton: (
-      <Translation>
-        {(t) => (
-          <Button
-            className={`${styles.ctaButton}`}
-            onClick={() => window.open('https://github.com/EnzoWM02/enzo-portfolio')}
-          >
-            <div className={`${styles.portfolioCtaButton}`}>
-              {t('learnMore')}
-              <i className="fa-brands fa-github" />
-            </div>
-          </Button>
-        )}
-      </Translation>
-    ),
+    ctaButton: <CtaButton link="https://github.com/EnzoWM02/enzo-portfolio" />,
+  },
+  {
+    name: 'himalayas-jobs',
+    title: 'projects.list.himalayas.title',
+    description: 'projects.list.himalayas.description',
+    miniatureImage: 'miniature',
+    link: 'https://github.com/EnzoWM02/himalaya-jobs',
+    skills: [Skills.Vuejs, Skills.Typescript, Skills.Html, Skills.Css],
+    ctaButton: <CtaButton link="https://github.com/EnzoWM02/himalaya-jobs" />,
   },
 ];

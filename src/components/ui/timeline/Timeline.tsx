@@ -8,6 +8,7 @@ export type TimelineSectionData = {
   title: string;
   description: string;
   isFavorite: boolean;
+  level: string;
 };
 
 interface ITimeline {
@@ -56,13 +57,21 @@ function TimelineSection({ item, left, last }: ITimelineSection) {
         left ? styles.left : styles.right
       } ${last && styles.last}`}
     >
-      {left ? <DataSection item={item} left={left} /> : <DateSection item={item} />}
+      {left ? (
+        <DataSection item={item} left={left} />
+      ) : (
+        <DateSection item={item} />
+      )}
       <div className={`${styles.lineContainer}`}>
         <div className={`${styles.ball}`} />
         <div className={`${styles.line}`} />
         {last && <div className={`${styles.ball}`} />}
       </div>
-      {!left ? <DataSection item={item} left={left} /> : <DateSection item={item} />}
+      {!left ? (
+        <DataSection item={item} left={left} />
+      ) : (
+        <DateSection item={item} />
+      )}
     </div>
   );
 }
@@ -73,6 +82,7 @@ function DateSection({ item, className = '' }: IDateSection) {
     <div className={`${className} ${styles.dateSectionContainer}`}>
       <span className={`${styles.dateTitle}`}>{t(item.date)}</span>
       <span className={`${styles.dateCompany}`}>{t(item.company)}</span>
+      <span className={`${styles.dateCompany}`}>{t(item.level)}</span>
     </div>
   );
 }

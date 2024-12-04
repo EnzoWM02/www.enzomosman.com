@@ -12,8 +12,8 @@ export default {
     home: {
       title: 'Home',
       title1: "Hello, I'm Enzo",
-      title2: 'A Full Stack developer who solves problems with technology',
-      desc: "Almost two years of professional experience working with several technologies to bring quality and results. I'm a passionate person who learns fast and is eager to grow",
+      title2: 'A software developer who solves problems with technology',
+      desc: "Almost three years of professional experience working with several technologies to bring quality and results. I'm a passionate person who learns fast and is eager to grow",
     },
     skills: {
       title: 'Skills',
@@ -47,11 +47,17 @@ export default {
         php: 'Php',
         laravel: 'Laravel',
         mysql: 'MySQL',
+        nuxtjs: 'NuxtJS',
       },
     },
     projects: {
       title: 'Projects',
       list: {
+        learner: {
+          title: 'Learner',
+          description:
+            'A programming education platform project with gamification elements based on my undergraduate thesis.',
+        },
         portfolio: {
           title: 'Portfolio',
           description:
@@ -73,13 +79,15 @@ export default {
         technicalSupportBimachine: {
           date: 'October/2021 - June/2022',
           title: 'Technical Support',
+          level: 'Junior',
           company: 'BIMachine',
           description:
             '<p>In this role, I served as an online support attendant for a Business Intelligence (BI) platform, utilizing email, chats, meetings, and phone communication to interact with clients. Throughout this position, I witnessed significant personal growth in my ability to connect with others and foster empathy. Additionally, I honed my communication skills to ensure clear understanding on both ends.</p><br/><p>I acquired a profound understanding of BI system operations and gained insights into the application of business rules within corporate contexts. My proficiency in SQL and MDX also were substantially improved, enabling me to adeptly manipulate data. These skills were effectively put to use across a range of databases, including PostgreSQL, MySQL, OracleSQL, and others.</p>',
         },
         fullStackDevBimachine: {
           date: 'June/2022 - September/2023',
-          title: 'Full Stack Developer',
+          title: 'React.js and Java Developer',
+          level: 'Junior',
           company: 'BIMachine',
           description:
             '<h2>Worked on the development area using Java, Javascript, ReactJS, PostgreSQL and others.</h2><p>I developed new features and fixed bugs, including critical ones, in a Business Intelligence web platform.</p><br/><p>Some of the major features I developed were:<ul><li>Rewrote JSF interfaces to ReactJS, refactoring the back-end as needed;</li><li>Creating whole new systems, like a labs for new features where users could test then.</li><li>Created a color picker with gradient from scratch, using ReactJS;</li><li>Refactored microservices;</li><li>Created and improved graphics and analytical objects.</li></ul></p><p>Throughout this journey, I gained extensive insights into application sustainability, the implementation of Clean Code principles, and effective collaboration within a development team, employing methodologies such as SCRUM and others.</p>',
@@ -87,9 +95,10 @@ export default {
         juniorDeveloperClinicaExperts: {
           date: 'October/2023 - Today',
           company: 'Clinica Experts',
-          title: 'Junior Full Stack Developer 3',
+          title: 'Vue.js and Laravel Developer',
+          level: 'Mid level',
           description:
-            '<p>Worked on the development of a web platform used to manage beauty clinics. The main technologies used were PHP, Laravel, MariaDB and VueJS.</p>',
+            '<h2>I worked on the development and maintenance of a comprehensive platform for managing aesthetic clinics, using Laravel, Vue.js, Docker, and MariaDB.</h2> <p>My contributions ranged from implementing new features to solving critical issues, always focusing on continuous improvement and enhancing user experience.</p> <br/> <p>Some of the main functionalities I developed include:</p> <ul> <li>Complete redesign of the inventory system, ensuring greater efficiency and accuracy in product control;</li> <li>Development of complex components, such as data tables with advanced filters, providing enhanced dynamism and usability;</li> <li>Creation of a teleconsultation system for remote appointments, seamlessly integrated into the platform;</li> <li>Development of specialized service modules, including a complete odontogram;</li> <li>Design and implementation of a dynamic clinic website portal using Nuxt.js, enabling simplified customization and management;</li> <li>Implementation of an AWS Lambda in Node.js for exporting PDFs from all system modules.</li> </ul> <p>This experience provided me with deep insights into integrating modern technologies, the importance of clean and scalable code, and the application of agile methodologies such as SCRUM to deliver consistent value to clients.</p>',
         },
       },
       formation: {
@@ -119,9 +128,9 @@ export default {
     about: {
       title: 'About me',
       copy:
-        "I'm a Full Stack Software Engineer which is passionate about it's job, loves learning new technologies and meeting new people.\n" +
+        "I'm a Software Engineer which is passionate about it's job, loves learning new technologies and meeting new people.\n" +
         "</br>I'm currently doing a Bachelor's Degree for Software Engineer in University of Vale do Taquari (Univates).\n" +
-        "</br></br>My favorite Stack to work with is Java + Javascript with ReactJS, but I'm open to learn any technology.</br></br>\n" +
+        "</br></br>\n" +
         "If you want to talk with me I'm open to messages or send me an e-mail",
       email: 'enzowmosman@gmail.com',
     },

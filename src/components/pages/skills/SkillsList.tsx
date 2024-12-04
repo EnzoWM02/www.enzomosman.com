@@ -34,6 +34,7 @@ export interface ISkills {
   Php: ISkill;
   Laravel: ISkill;
   Mysql: ISkill;
+  Nuxtjs: ISkill;
 }
 
 export const Skills: ISkills = {
@@ -146,5 +147,10 @@ export const Skills: ISkills = {
     name: 'mysql',
     title: 'skills.list.mysql',
     section: Section.Backend,
+  },
+  Nuxtjs: {
+    name: 'nuxtjs',
+    title: 'skills.list.nuxtjs',
+    section: Section.Frontend,
   },
 };

@@ -13,8 +13,8 @@ export default {
       title: 'Home',
       title1: 'Olá, eu sou o Enzo',
       title2:
-        'Um desenvolvedor Full Stack que soluciona problemas usando tecnologia',
-      desc: 'Quase 2 anos de experiência profissional trabalhando com diversas tecnologias para entregar qualidade e resultados. Sou uma pessoa animada, que aprende rápido e tem vontade de crescer.',
+        'Um desenvolvedor de software que soluciona problemas usando tecnologia',
+      desc: 'Quase 3 anos de experiência profissional trabalhando com diversas tecnologias para entregar qualidade e resultados. Sou uma pessoa animada, que aprende rápido e tem vontade de crescer.',
     },
     skills: {
       title: 'Habilidades',
@@ -48,11 +48,17 @@ export default {
         php: 'Php',
         laravel: 'Laravel',
         mysql: 'MySQL',
+        nuxtjs: 'NuxtJS',
       },
     },
     projects: {
       title: 'Projetos',
       list: {
+        learner: {
+          title: 'Learner',
+          description:
+            'Um projeto de plataforma de ensino de programação com elementos de gamificação embasados a partir do meu TCC.',
+        },
         portfolio: {
           title: 'Portfolio',
           description:
@@ -75,22 +81,25 @@ export default {
           date: 'Outubro/2021 - Junho/2022',
           company: 'BIMachine',
           title: 'Técnico de Suporte',
+          level: 'Junior',
           description:
             '<p>Nessa posição, desempenhei o papel de atendente de suporte online em uma plataforma de Business Intelligence (BI), onde utilizei e-mail, chats, reuniões e telefone como canais de comunicação direta com os clientes. Durante esse período, experimentei um notável crescimento na minha capacidade de interagir com as pessoas e cultivar empatia. Além disso, aprimorei significativamente minhas habilidades de comunicação, buscando sempre esclarecer entendimentos mútuos.</p><br/><p>Ao longo dessa experiência, adquiri um profundo conhecimento sobre o funcionamento de sistemas de BI e compreendi como as regras de negócios se aplicam ao contexto empresarial. Minhas competências em SQL e MDX também foram substancialmente aprimoradas, permitindo-me realizar manipulação de dados com destreza. Essas habilidades foram aplicadas com sucesso em diversos bancos de dados, incluindo PostgreSQL, MySQL, OracleSQL, entre outros.</p>',
         },
         fullStackDevBimachine: {
           date: 'Junho/2022 - Setembro/2023',
           company: 'BIMachine',
-          title: 'Desenvolvedor Full Stack',
+          title: 'Desenvolvedor React.js e Java',
+          level: 'Junior',
           description:
             '<h2>Trabalhei no fronte de desenvolvimento atuando com Java, Javascript, ReactJS, PostgreSQL e outros.</h2><p>Desenvolvi novas funcionalidades e resolvi bugs, incluindo críticos, em uma plataforma web de BI (Business Inteligence).</p><br/><p>Algumas das maiores funcionalidades desenvolvidas foram:<ul><li>Reescrita de interfaces em JSF para ReactJS, recriando todo o back-end necessário;</li><li>Criação de novos sistemas, como um laboratório de novas funcionalidades para teste pelos usuários;</li><li>Criação de um seletor de cores com gradiente, utilizando ReactJS;</li><li>Refatoração de microserviços;</li><li>Criação e melhorias de gráficos e objetos analíticos.</li></ul></p><p>Minha jornada nessa experiência me proporcionou um profundo entendimento sobre a manutenção contínua de aplicações, a aplicação de princípios de Clean Code em meu código e a colaboração eficaz em equipes de desenvolvimento, seguindo metodologias como o SCRUM, entre outras.</p>',
         },
         juniorDeveloperClinicaExperts: {
           date: 'Outubro/2023 - Hoje',
           company: 'Clinica Experts',
-          title: 'Desenvolvedor Full Stack Junior 3',
+          title: 'Desenvolvedor Vue.js e Laravel',
+          level: 'Pleno',
           description:
-            '<p>Trabalhei no desenvolvimento e correções de uma plataforma voltada para gerência de clinicas de estética usando PHP, Laravel, VueJS e MariaDB.</p>',
+            '<h2>Atuei no desenvolvimento e manutenção de uma plataforma completa para gestão de clínicas de estética, utilizando Laravel, Vue.js, Docker e MariaDB.</h2> <p>Minhas contribuições envolveram desde a implementação de novas funcionalidades até a solução de problemas críticos, sempre com foco na melhoria contínua e na experiência do usuário.</p> <br/> <p>Entre as principais funcionalidades desenvolvidas, destaco:</p> <ul> <li>Recriação completa do sistema de estoque, garantindo maior eficiência e precisão no controle de produtos;</li> <li>Desenvolvimento de componentes complexos, como data tables e filtros avançados;</li> <li>Criação de um sistema de teleconsulta para consultas remotas, integrado diretamente à plataforma;</li> <li>Desenvolvimento de módulos especializados de atendimento, incluindo um odontograma completo;</li> <li>Desenvolvimento de um portal dinâmico de sites para clínicas utilizando Nuxt.js, permitindo personalização e gerenciamento simplificados;</li> <li>Implementação de uma AWS Lambda em Node.js para exportação de PDFs de todos os módulos do sistema.</li> </ul> <p>Essa experiência proporcionou um aprendizado profundo sobre a integração de tecnologias modernas, a importância de um código limpo e escalável e a aplicação de metodologias ágeis como SCRUM para entrega de valor constante ao cliente.</p>',
         },
       },
       formation: {
@@ -122,7 +131,7 @@ export default {
       copy:
         'Eu sou um desenvolvedor de software full stack que é apaixonado pela sua carreira, ama aprender novas tecnologias e conhecer novas pessoas.\n' +
         '</br>Atualmente estou cursando engenharia de software na Univates, em Lajeado - RS.\n' +
-        '<br/><br/>Minha stack favorita é Java + Typescript com ReactJS, mas estou sempre aberto para aprender novas tecnologias.<br/><br/>\n' +
+        '<br/><br/>\n' +
         'Se estiver interessado em meu trabalho ou quiser apenas trocar uma idéia, estou aberto para mensagens no meu Linkedin ou no meu e-mail.',
       email: 'enzowmosman@gmail.com',
     },

@@ -11,6 +11,14 @@ enum FavoriteProfessionalExperiences {
   FullStackDevBimachine = 'fullStackDevBimachine',
 }
 
+type FormationExperienceKeys = 'softwareEngineer' | 'fisk' | 'bomJesus';
+
+enum FormationExperiences {
+  SoftwareEngineer = 'softwareEngineer',
+  Fisk = 'fisk',
+  BomJesus = 'bomJesus',
+}
+
 enum FavoriteFormationExperiences {
   SoftwareEngineer = 'softwareEngineer',
 }
@@ -30,12 +38,6 @@ export const ProfessionalExperiencesList: TimelineSectionData[] = Object.values(
   };
 });
 
-enum FormationExperiences {
-  SoftwareEngineer = 'softwareEngineer',
-  Fisk = 'fisk',
-  BomJesus = 'bomJesus',
-}
-
 export const FormationExperiencesList: TimelineSectionData[] = Object.values(
   FormationExperiences
 ).map((item) => {
@@ -46,7 +48,7 @@ export const FormationExperiencesList: TimelineSectionData[] = Object.values(
     description: `experiences.formation.${item}.description`,
     level: '',
     isFavorite: Object.values(FavoriteFormationExperiences).some(
-      (e) => e === item
+      (e) => e === (item as string)
     ),
   };
 });

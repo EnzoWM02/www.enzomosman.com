@@ -45,7 +45,7 @@ export default {
         proactive: 'Proatividade',
         creative: 'Criativo',
         vuejs: 'VueJS',
-        php: 'Php',
+        php: 'PHP',
         laravel: 'Laravel',
         mysql: 'MySQL',
         nuxtjs: 'NuxtJS',
@@ -88,7 +88,7 @@ export default {
         fullStackDevBimachine: {
           date: 'Junho/2022 - Setembro/2023',
           company: 'BIMachine',
-          title: 'Desenvolvedor React.js e Java',
+          title: 'Desenvolvedor ReactJS e Java',
           level: 'Junior',
           description:
             '<h2>Trabalhei no fronte de desenvolvimento atuando com Java, Javascript, ReactJS, PostgreSQL e outros.</h2><p>Desenvolvi novas funcionalidades e resolvi bugs, incluindo críticos, em uma plataforma web de BI (Business Inteligence).</p><br/><p>Algumas das maiores funcionalidades desenvolvidas foram:<ul><li>Reescrita de interfaces em JSF para ReactJS, recriando todo o back-end necessário;</li><li>Criação de novos sistemas, como um laboratório de novas funcionalidades para teste pelos usuários;</li><li>Criação de um seletor de cores com gradiente, utilizando ReactJS;</li><li>Refatoração de microserviços;</li><li>Criação e melhorias de gráficos e objetos analíticos.</li></ul></p><p>Minha jornada nessa experiência me proporcionou um profundo entendimento sobre a manutenção contínua de aplicações, a aplicação de princípios de Clean Code em meu código e a colaboração eficaz em equipes de desenvolvimento, seguindo metodologias como o SCRUM, entre outras.</p>',
@@ -96,10 +96,10 @@ export default {
         juniorDeveloperClinicaExperts: {
           date: 'Outubro/2023 - Hoje',
           company: 'Clinica Experts',
-          title: 'Desenvolvedor Vue.js e Laravel',
+          title: 'Desenvolvedor VueJS e Laravel',
           level: 'Pleno',
           description:
-            '<h2>Atuei no desenvolvimento e manutenção de uma plataforma completa para gestão de clínicas de estética, utilizando Laravel, Vue.js, Docker e MariaDB.</h2> <p>Minhas contribuições envolveram desde a implementação de novas funcionalidades até a solução de problemas críticos, sempre com foco na melhoria contínua e na experiência do usuário.</p> <br/> <p>Entre as principais funcionalidades desenvolvidas, destaco:</p> <ul> <li>Recriação completa do sistema de estoque, garantindo maior eficiência e precisão no controle de produtos;</li> <li>Desenvolvimento de componentes complexos, como data tables e filtros avançados;</li> <li>Criação de um sistema de teleconsulta para consultas remotas, integrado diretamente à plataforma;</li> <li>Desenvolvimento de módulos especializados de atendimento, incluindo um odontograma completo;</li> <li>Desenvolvimento de um portal dinâmico de sites para clínicas utilizando Nuxt.js, permitindo personalização e gerenciamento simplificados;</li> <li>Implementação de uma AWS Lambda em Node.js para exportação de PDFs de todos os módulos do sistema.</li> </ul> <p>Essa experiência proporcionou um aprendizado profundo sobre a integração de tecnologias modernas, a importância de um código limpo e escalável e a aplicação de metodologias ágeis como SCRUM para entrega de valor constante ao cliente.</p>',
+            '<h2>Atuei no desenvolvimento e manutenção de uma plataforma completa para gestão de clínicas de estética, utilizando Laravel, VueJS, Docker e MariaDB.</h2> <p>Minhas contribuições envolveram desde a implementação de novas funcionalidades até a solução de problemas críticos, sempre com foco na melhoria contínua e na experiência do usuário.</p> <br/> <p>Entre as principais funcionalidades desenvolvidas, destaco:</p> <ul> <li>Recriação completa do sistema de estoque, garantindo maior eficiência e precisão no controle de produtos;</li> <li>Desenvolvimento de componentes complexos, como data tables e filtros avançados;</li> <li>Criação de um sistema de teleconsulta para consultas remotas, integrado diretamente à plataforma;</li> <li>Desenvolvimento de módulos especializados de atendimento, incluindo um odontograma completo;</li> <li>Desenvolvimento de um portal dinâmico de sites para clínicas utilizando NuxtJS, permitindo personalização e gerenciamento simplificados;</li> <li>Implementação de uma AWS Lambda em NodeJS para exportação de PDFs de todos os módulos do sistema.</li> </ul> <p>Essa experiência proporcionou um aprendizado profundo sobre a integração de tecnologias modernas, a importância de um código limpo e escalável e a aplicação de metodologias ágeis como SCRUM para entrega de valor constante ao cliente.</p>',
         },
       },
       formation: {
@@ -122,23 +122,23 @@ export default {
           company: 'Univates',
           title: 'Gradução em Engenharia de Software',
           description:
-            'Com o objetivo de conhecer com mais amplitude o universo de desenvolvimento, estou realizando o curso de engenharia de software',
+            'Sou graduado em Engenharia de Software pela Univates, uma escolha que reflete minha paixão por tecnologia e meu desejo constante de aprender e me especializar na área. Durante minha jornada acadêmica, tive a oportunidade de crescer tanto pessoal quanto profissionalmente, ampliando meu networking e adquirindo experiências valiosas.<br></br>Ao longo do curso, mergulhei em uma ampla gama de tecnologias e conceitos, como arquiteturas de software, segurança da informação, inteligência artificial, UI/UX, desenvolvimento web, desktop e mobile, entre outros. Cada aprendizado foi essencial para consolidar minhas habilidades e construir uma base sólida para minha carreira.<br></br>Essa experiência não foi apenas um marco acadêmico, mas algo que levarei comigo como um diferencial em minha trajetória profissional.',
         },
       },
     },
     about: {
       title: 'Sobre mim',
       copy:
-        'Eu sou um desenvolvedor de software full stack que é apaixonado pela sua carreira, ama aprender novas tecnologias e conhecer novas pessoas.\n' +
-        '</br>Atualmente estou cursando engenharia de software na Univates, em Lajeado - RS.\n' +
+        'Sou um desenvolvedor de software formado em Engenharia de Software pela Univates, apaixonado pela minha carreira e movido pela curiosidade em aprender novas tecnologias e conhecer novas pessoas.\n' +
+        '</br></br>Acredito que a tecnologia é uma ferramenta poderosa para alcançar grandes objetivos. Por isso, estou sempre disposto a explorar novas soluções e dominar ferramentas para entregar bons resultados.\n' +
         '<br/><br/>\n' +
-        'Se estiver interessado em meu trabalho ou quiser apenas trocar uma idéia, estou aberto para mensagens no meu Linkedin ou no meu e-mail.',
+        'Se você está interessado no meu trabalho ou gostaria de trocar ideias, sinta-se à vontade para entrar em contato pelo meu LinkedIn ou e-mail.',
       email: 'enzowmosman@gmail.com',
     },
     learnMore: 'Saiba mais',
     email: 'E-mail',
     curriculum: {
-      link: 'https://drive.google.com/uc?id=1R_sqj0lsPbA6VEH2dv9c0Qh8KiL17zYl&export=download',
+      link: 'https://drive.google.com/uc?id=1tKV16aTZ1y7EslGmhb42M4IiXLjIyq5O&export=download',
     },
   },
 };

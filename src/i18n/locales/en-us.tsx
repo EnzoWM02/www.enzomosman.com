@@ -44,7 +44,7 @@ export default {
         proactive: 'Proactivity',
         creative: 'Creativity',
         vuejs: 'VueJS',
-        php: 'Php',
+        php: 'PHP',
         laravel: 'Laravel',
         mysql: 'MySQL',
         nuxtjs: 'NuxtJS',
@@ -86,7 +86,7 @@ export default {
         },
         fullStackDevBimachine: {
           date: 'June/2022 - September/2023',
-          title: 'React.js and Java Developer',
+          title: 'ReactJS and Java Developer',
           level: 'Junior',
           company: 'BIMachine',
           description:
@@ -95,10 +95,10 @@ export default {
         juniorDeveloperClinicaExperts: {
           date: 'October/2023 - Today',
           company: 'Clinica Experts',
-          title: 'Vue.js and Laravel Developer',
+          title: 'VueJS and Laravel Developer',
           level: 'Mid level',
           description:
-            '<h2>I worked on the development and maintenance of a comprehensive platform for managing aesthetic clinics, using Laravel, Vue.js, Docker, and MariaDB.</h2> <p>My contributions ranged from implementing new features to solving critical issues, always focusing on continuous improvement and enhancing user experience.</p> <br/> <p>Some of the main functionalities I developed include:</p> <ul> <li>Complete redesign of the inventory system, ensuring greater efficiency and accuracy in product control;</li> <li>Development of complex components, such as data tables with advanced filters, providing enhanced dynamism and usability;</li> <li>Creation of a teleconsultation system for remote appointments, seamlessly integrated into the platform;</li> <li>Development of specialized service modules, including a complete odontogram;</li> <li>Design and implementation of a dynamic clinic website portal using Nuxt.js, enabling simplified customization and management;</li> <li>Implementation of an AWS Lambda in Node.js for exporting PDFs from all system modules.</li> </ul> <p>This experience provided me with deep insights into integrating modern technologies, the importance of clean and scalable code, and the application of agile methodologies such as SCRUM to deliver consistent value to clients.</p>',
+            '<h2>I worked on the development and maintenance of a comprehensive platform for managing aesthetic clinics, using Laravel, VueJS, Docker, and MariaDB.</h2> <p>My contributions ranged from implementing new features to solving critical issues, always focusing on continuous improvement and enhancing user experience.</p> <br/> <p>Some of the main functionalities I developed include:</p> <ul> <li>Complete redesign of the inventory system, ensuring greater efficiency and accuracy in product control;</li> <li>Development of complex components, such as data tables with advanced filters, providing enhanced dynamism and usability;</li> <li>Creation of a teleconsultation system for remote appointments, seamlessly integrated into the platform;</li> <li>Development of specialized service modules, including a complete odontogram;</li> <li>Design and implementation of a dynamic clinic website portal using NuxtJS, enabling simplified customization and management;</li> <li>Implementation of an AWS Lambda in NodeJS for exporting PDFs from all system modules.</li> </ul> <p>This experience provided me with deep insights into integrating modern technologies, the importance of clean and scalable code, and the application of agile methodologies such as SCRUM to deliver consistent value to clients.</p>',
         },
       },
       formation: {
@@ -121,23 +121,23 @@ export default {
           company: 'Univates',
           title: "Software Engineer Bachelor's degree",
           description:
-            "Aiming to achieve a broader understand in software development, I'm currently pursuing a course in software engineering",
+            'I hold a degree in Software Engineering from Univates, a choice that reflects my passion for technology and my constant desire to learn and specialize in the field. During my academic journey, I had the opportunity to grow both personally and professionally, expanding my network and gaining valuable experiences.<br></br>Throughout the course, I delved into a wide range of technologies and concepts, such as software architecture, information security, artificial intelligence, UI/UX, web development, desktop development, and mobile development, among others. Each learning experience was essential in solidifying my skills and building a strong foundation for my career.<br></br>This experience was not only an academic milestone but also something I will carry with me as a unique asset in my professional journey.',
         },
       },
     },
     about: {
       title: 'About me',
       copy:
-        "I'm a Software Engineer which is passionate about it's job, loves learning new technologies and meeting new people.\n" +
-        "</br>I'm currently doing a Bachelor's Degree for Software Engineer in University of Vale do Taquari (Univates).\n" +
-        "</br></br>\n" +
-        "If you want to talk with me I'm open to messages or send me an e-mail",
+        'I am a software developer with a degree in Software Engineering from Univates, passionate about my career and driven by curiosity to learn new technologies and connect with inspiring people.\n' +
+        '</br></br>I believe technology is a powerful tool to achieve great goals. That’s why I’m always eager to explore new solutions and master tools to deliver high-impact results.\n' +
+        '<br/><br/>\n' +
+        'If you’re interested in my work or just want to exchange ideas, feel free to reach out via LinkedIn or email.',
       email: 'enzowmosman@gmail.com',
     },
     learnMore: 'Learn more',
     email: 'E-mail',
     curriculum: {
-      link: 'https://drive.google.com/uc?id=1LK8VpITH1yhdIimf8r8g5RAZPVazLC8s&export=download',
+      link: 'https://drive.google.com/uc?id=14NdChnOoIPRX6v668Kfs6vmleQS5Xe7w&export=download',
     },
   },
 };

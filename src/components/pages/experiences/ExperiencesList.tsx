@@ -11,6 +11,10 @@ enum FavoriteProfessionalExperiences {
   FullStackDevBimachine = 'fullStackDevBimachine',
 }
 
+enum FavoriteFormationExperiences {
+  SoftwareEngineer = 'softwareEngineer',
+}
+
 export const ProfessionalExperiencesList: TimelineSectionData[] = Object.values(
   ProfessionalExperiences
 ).map((item: string) => {
@@ -41,6 +45,8 @@ export const FormationExperiencesList: TimelineSectionData[] = Object.values(
     title: `experiences.formation.${item}.title`,
     description: `experiences.formation.${item}.description`,
     level: '',
-    isFavorite: false,
+    isFavorite: Object.values(FavoriteFormationExperiences).some(
+      (e) => e === item
+    ),
   };
 });
